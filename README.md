@@ -8,6 +8,6 @@
 
 Μην το χάσετε! Σας περιμένουμε! 🐴
 
-🔗 [Σύνδεσμος στο προφίλ](https://wpgreece.org/links/wcla2024)
+🔗 https://wpgreece.org/links/wcla2024
 
 🔗 https://larissa.wordcamp.org/
