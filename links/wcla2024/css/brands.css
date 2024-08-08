@@ -28,7 +28,12 @@
 
 /* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-
+html {
+	background-color: #4e192d;
+}
+body {
+	color: white;
+}
 .button,
 button {
   display: inline-block;
@@ -1180,8 +1185,8 @@ button:hover,
 /* WordPress Greek Community Custom */
 
 .button.button-wcla2024 {
-  color: #ffffff;
-  background-color: #4e192d;
+  color: #4e192d;
+  background-color: #ffffff;
 }
 
 .button.button-wcla2024:hover,
