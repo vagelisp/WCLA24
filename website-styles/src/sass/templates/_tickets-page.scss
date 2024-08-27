@@ -1,0 +1,372 @@
+.entry-content {
+	#tix {
+		table.tix_tickets_table {
+			background-color: $WCEU2023-Yellow-20;
+			border-collapse: collapse;
+			color: $WCEU2023-DarkBlue-100;
+			font-family: $Mulish;
+
+			thead {
+				tr {
+					th {
+						font-weight: $Bold;
+						padding: 1.5rem 2rem;
+					}
+				}
+			}
+
+			tbody {
+				tr {
+					> th,
+					> td {
+						background: $WCEU2023-Yellow-20;
+						box-sizing: border-box;
+						padding: 1.5rem 2rem;
+
+						> * {
+							box-sizing: border-box;
+						}
+					}
+				}
+			}
+
+			// Ticket sales list.
+			&.tix-tickets-list {
+				thead {
+					tr {
+						border-bottom: 2px solid $WCEU2023-DarkBlue-100;
+
+						th {
+							&.tix-column-description {
+								text-align: left;
+							}
+						}
+					}
+				}
+
+				tbody {
+					tr {
+						> th,
+						> td {
+							background: $WCEU2023-Yellow-20;
+
+							&:nth-child(even) {
+								background: $WCEU2023-Yellow-10;
+							}
+						}
+
+						&:not(:last-child) {
+							border-bottom: 2px solid $WCEU2023-DarkBlue-100;
+						}
+
+						th {
+							padding: 3rem 2rem;
+
+							&.tix-column-description {
+								text-align: left;
+
+								label.tix-ticket-title {
+									display: inline-block;
+									margin-bottom: 0.5rem;
+								}
+							}
+						}
+
+						td {
+							text-align: center;
+
+							&.tix-column-price,
+							&.tix-column-remaining {
+								font-weight: $Bold;
+							}
+						}
+					}
+				}
+			}
+
+			// Order Summary.
+			&.tix-order-summary {
+				thead {
+					tr {
+						background-color: $WCEU2023-Yellow-40;
+						border-bottom: 2px solid $WCEU2023-DarkBlue-100;
+
+						th {
+							&.tix-column-description {
+								text-align: left;
+							}
+						}
+					}
+				}
+
+				tbody {
+					tr {
+						td {
+							&.tix-column-per-ticket,
+							&.tix-column-quantity,
+							&.tix-column-price {
+								text-align: center;
+							}
+						}
+
+						&.tix-row-total {
+							text-align: center;
+						}
+
+						> th,
+						> td {
+							background: $WCEU2023-Yellow-20;
+
+							&:nth-child(even) {
+								background: $WCEU2023-Yellow-10;
+							}
+						}
+					}
+				}
+
+				width: 100%;
+			}
+
+			// Attendee Form.
+			&.tix-attendee-form {
+				tbody {
+					tr {
+						&:first-child {
+							> th {
+								border-bottom: 2px solid $WCEU2023-DarkBlue-100;
+								background-color: $WCEU2023-Yellow-40;
+							}
+						}
+
+						@include media-max(sm) {
+							&[class*="tix-row"] {
+								display: flex;
+								flex-direction: column;
+								flex-wrap: wrap;
+								gap: 0.75rem;
+								padding: 1.5rem 0;
+
+								> td {
+									padding: 0 2rem;
+									width: 100%;
+								}
+							}
+						}
+					}
+				}
+
+				// Inputs
+				input {
+					background-color: $WCEU2023-TotalWhite-100;
+					border: 2px solid $WCEU2023-Yellow-100;
+					font-size: var(--wp--preset--font-size--medium);
+					line-height: 2;
+					padding: 1rem;
+
+					&[type="text"],
+					&[type="phone"],
+					&[type="url"],
+					&[type="email"] {
+						width: 100%;
+					}
+				}
+
+				textarea {
+					background-color: $WCEU2023-TotalWhite-100;
+					border: 2px solid $WCEU2023-Yellow-100;
+					font-size: var(--wp--preset--font-size--medium);
+					line-height: 2;
+					padding: 1rem;
+					resize: none;
+					width: 100%;
+				}
+
+				select {
+					background-color: $WCEU2023-TotalWhite-100;
+					border: 2px solid $WCEU2023-Yellow-100;
+					font-size: var(--wp--preset--font-size--medium);
+					line-height: 2;
+					padding: 1rem;
+					width: 100%;
+				}
+
+				// Spacing between multiple attendee forms.
+				~ .tix-attendee-form {
+					margin-top: 3rem;
+				}
+			}
+
+			&.tix_invoice_table {
+				margin-top: 1.5rem;
+				width: 100%;
+
+				tbody {
+					tr {
+
+						@include media-max(sm) {
+							display: flex;
+							flex-direction: column;
+							flex-wrap: wrap;
+							gap: 0.75rem;
+							padding: 1.5rem 0;
+
+							> td {
+								padding: 0 2rem;
+								width: 100%;
+							}
+						}
+					}
+				}
+
+				// Inputs
+				input {
+					background-color: $WCEU2023-TotalWhite-100;
+					border: 2px solid $WCEU2023-Yellow-100;
+					font-size: var(--wp--preset--font-size--medium);
+					line-height: 2;
+					padding: 1rem;
+
+					&[type="text"],
+					&[type="phone"],
+					&[type="url"],
+					&[type="email"] {
+						width: 100%;
+					}
+				}
+
+				textarea {
+					background-color: $WCEU2023-TotalWhite-100;
+					border: 2px solid $WCEU2023-Yellow-100;
+					font-size: var(--wp--preset--font-size--medium);
+					line-height: 2;
+					padding: 1rem;
+					resize: none;
+					width: 100%;
+				}
+			}
+		}
+
+		.camptix-invoice-toggle-wrapper {
+			margin-top: 1.5rem;
+			width: 100%;
+		}
+
+		// Submit button.
+		input[type="submit"] {
+			background-color: $WCEU2023-Red-100;
+			border: none;
+			border-radius: 2rem;
+			color: $WCEU2023-TotalWhite-100;
+			font-family: $Mulish;
+			font-size: 1.2rem;
+			font-weight: $Bold;
+			display: block;
+			line-height: 1.5;
+			margin-bottom: 5rem;
+			padding: 1rem;
+			transition: background-color 0.3s ease;
+			width: 100%;
+
+			&:hover {
+				background-color: $WCEU2023-Red-80;
+			}
+		}
+
+		form {
+			.tix-wide-tab {
+				float: none;
+				width: auto;
+			}
+
+			.tix-submit {
+				margin-top: 5rem;
+				float: none;
+			}
+
+			.tix-payment-method {
+				.tix-payment-tab {
+					border: none;
+					padding: 0;
+					text-align: center;
+				}
+			}
+
+			.tix-column-quantity {
+				select {
+					padding: 20px;
+				}
+			}
+		}
+
+		#tix-coupon-container {
+			text-align: center;
+
+			#tix-coupon-input {
+				width: 80%;
+				height: 25px;
+				margin-bottom: 20px;
+			}
+		}
+
+		//adding as a seperate block to make it easier to keep track of the edits
+		@include media-max(sm) {
+			table {
+				caption {
+					font-size: 1.3em;
+				}
+
+				thead {
+					border: none;
+					clip: rect(0 0 0 0);
+					height: 1px;
+					margin: -1px;
+					overflow: hidden;
+					padding: 0;
+					position: absolute;
+					width: 1px;
+				}
+
+				tr {
+					border-bottom: 3px solid #ddd;
+					display: block;
+					margin-bottom: 0.625em;
+				}
+
+				td {
+					border-bottom: 1px solid #ddd;
+					display: block;
+					text-align: right;
+
+					&:last-child {
+						border-bottom: 0;
+					}
+				}
+
+				select {
+					font-size: 1.2rem;
+					padding: 15px 25px;
+				}
+			}
+		}
+	}
+
+	#tix-errors {
+		.tix-error {
+			background-color: $WCEU2023-Red-100;
+			border: none;
+			color: $WCEU2023-TotalWhite-100;
+			font-weight: $SemiBold;
+			padding: 1em;
+		}
+	}
+}
+
+.tix-attendee-form {
+	td {
+		text-align: left !important;
+	}
+}
+
+.tix-row-total td {
+	text-align: center !important;
+}

@@ -1,0 +1,101 @@
+.page-template-wp-custom-template-schedule {
+
+		@include media-min(md) {
+		.wp-site-blocks {
+			background:
+				url(//europe.wordcamp.org/2023/files/2023/04/sponsors-page-background.png),
+				url(//europe.wordcamp.org/2023/files/2023/04/sponsors-page-background-2.png),
+				url(//europe.wordcamp.org/2023/files/2023/04/sponsors-page-background.png),
+				url(//europe.wordcamp.org/2023/files/2023/04/sponsors-page-background-2.png);
+			background-position: 0 10%, 100% 25%, 0 60%, 100% 85%;
+			background-repeat: no-repeat;
+			background-size: 600px;
+		}
+	}
+
+	.wordcamp-schedule__date {
+		color: #0a3773;
+		font-size: 2.6rem;
+	}
+
+	.inner-footer-subscribe-container {
+		display: none;
+	}
+
+	h4.wordcamp-schedule__session-title {
+		justify-content: center;
+	}
+}
+
+// global schedule styles
+.wordcamp-schedule__day {
+	border-left: 8px solid $WCEU2023-Yellow-80;
+	background-color: $WCEU2023-Yellow-40 !important;
+
+
+	.wordcamp-schedule__time-slot-header {
+		background-color: $WCEU2023-Yellow-60 !important;
+		font-weight: $Bold;
+		font-size: 1rem;
+		box-shadow: none !important;
+	}
+
+	.wordcamp-schedule__column-header {
+		font-size: 1.2rem;
+		line-height: 3;
+		background-color: $WCEU2023-Yellow-80 !important;
+		color: $WCEU2023-DarkBlue-100;
+	}
+
+	.wordcamp-schedule__session {
+		background-color: $WCEU2023-Yellow-40;
+
+		&:hover {
+			background-color: $WCEU2023-Yellow-60;
+		}
+	}
+
+	.wordcamp-schedule__session-category {
+		color: $WCEU2023-Red-100;
+	}
+
+	.wordcamp-schedule__session-title {
+		font-size: 1.2em;
+		font-weight: 600;
+		a {
+			&:not(.fav-session-button) {
+				color: $WCEU2023-DarkBlue-100;
+			}
+		}
+	}
+
+	.wordcamp-schedule__session{
+		box-shadow: 0 0 1px 1px #fde9b1 !important;
+	}
+
+	a.fav-session-button {
+		color: $WCEU2023-DarkBlue-100;
+	}
+
+	.dashicons-star-filled:before {
+		content: "\f154";
+	}
+
+	.wcb-favourite-session {
+		.fav-session-button {
+			color: $WCEU2023-Yellow-100;
+		}
+
+		.dashicons-star-filled:before {
+			content: "\f155";
+		}
+	}
+
+	@media print {
+		.wordcamp-schedule__session,
+		.wcb-session-favourite-icon {
+			display: block !important;
+			text-align: center !important;
+		}
+	}
+}

@@ -1,0 +1,94 @@
+.single-wcb_speaker {
+	.speaker-avatar {
+		display: none !important;
+	}
+
+	.speaker-social-handles a {
+		text-decoration: underline !important;
+		color: $WCEU2023-Red-100 !important;
+	}
+
+	.speaker-sessions,
+	#speaker-session-names {
+		display: none !important;
+	}
+
+	.wordcamp-image__avatar-container {
+		img {
+			border: 10px solid #1e5fb4;
+			border-radius: 100%;
+			width: 450px !important;
+			@include media-max(md) {
+				width: 350px !important;
+			}
+		}
+	}
+
+	.wordcamp-speaker__sessions {
+		background-color: $WCEU2023-Turquoise-40 !important;
+		padding: 50px !important;
+		margin: 100px auto !important;
+		font-size: 1rem !important;
+
+		.wordcamp-speaker__sessions-heading {
+			margin: 0;
+			font-size: 1.5rem !important;
+		}
+
+		.wordcamp-speaker__session-link a {
+			color: $WCEU2023-DarkBlue-100 !important;
+			font-weight: $SemiBold !important;
+			text-decoration: underline !important;
+			font-size: 1.25rem !important;
+		}
+	}
+
+	.wordcamp-speaker__related-speakers {
+		background-color: $WCEU2023-Yellow-40 !important;
+		padding: 60px !important;
+
+		.wordcamp-speaker-related-speakers-container {
+			margin: 0 auto !important;
+			max-width: 1200px !important;
+		}
+
+		.wordcamp-speaker__related-speakers-heading {
+			font-size: 2rem !important;
+			color: $WCEU2023-DarkBlue-100 !important;
+		}
+
+		.wordcamp-image__related-speaker-avatar {
+			img {
+				border: 10px solid #1e5fb4;
+				border-radius: 100%;
+				width: 300px !important;
+				height: 300px !important;
+				@include media-max(md) {
+					width: 250px !important;
+					height: 250px !important;
+				}
+			}
+		}
+
+			
+
+		.wordcamp-speaker__related-speaker-name a {
+			color: $WCEU2023-Red-100 !important;
+			text-decoration: none !important;
+			font-size: 1.25rem !important;
+			font-weight: $SemiBold !important;
+		}
+	}
+
+	.check-the-schedule {
+		margin-top: -25px!important;
+		margin-bottom: -25px!important;
+		.wp-block-button {
+		    width: 100%;
+    		max-width: 1000px;
+		}
+	}
+	.footer-subscribe {
+		display: none !important;
+	}
+}

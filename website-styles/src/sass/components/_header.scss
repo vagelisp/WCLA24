@@ -1,0 +1,124 @@
+/*  Header
+	========================================================================== */
+
+header {
+	.wp-block-navigation {
+		ul,
+		.wp-block-navigation-item__label {
+			font-family: $Mulish;
+			color: $WCEU2023-DarkBlue-100;
+
+			@include media-max(md) {
+				font-size: "1.5rem";
+				
+			}
+		}
+
+		li:last-child {
+			.wp-block-navigation__submenu-container {
+				// min-width: 400px !important;
+
+				li {
+					text-align: right;
+
+					a {
+						display: inline-block !important;
+					}
+				}
+			}
+		}
+	}
+
+	.wp-block-navigation__responsive-container.is-menu-open {
+		background-color: $WCEU2023-Turquoise-100 !important;
+	}
+
+	@include media-max(lg) {
+		#modal-2 {
+			background-image: url(//europe.wordcamp.org/2023/files/2023/02/menu-symbol.png);
+			background-repeat: no-repeat;
+			background-size: auto 102vh;
+
+			a.wp-block-navigation-item__content {
+				color: $WCEU2023-Red-100 !important;
+			}
+
+			.wp-block-navigation__submenu-container {
+				padding-top: 0 !important;
+				padding-right: 0;
+			}
+		}
+	}
+}
+
+// nav block breakpoint
+@include media-max(lg) {
+	.wp-block-navigation__responsive-container:not(.has-modal-open) {
+		bottom: 0 !important;
+		display: none !important;
+		left: 0 !important;
+		position: fixed !important;
+		right: 0 !important;
+		top: 0 !important;
+	}
+
+	.wp-block-navigation__responsive-container-open:not(.always-shown) {
+		display: initial;
+	}
+}
+
+.top-search {
+	display: none !important;
+
+	@include media-min(xxl) {
+		display : initial !important;
+  		margin-left: -620px!important
+	}
+
+	.wp-block-search__inside-wrapper {
+		position: relative;
+		width: auto !important;
+		min-width: 0;
+		border: none;
+	}
+
+
+	.wp-block-search__button {
+		border-radius: 50%;
+		height: 55px;
+		width: 55px;
+		background: #fff;
+	}
+
+	.wp-block-search__button svg {
+		min-height: 40px;
+		margin-top: 10px;
+		min-width: 65px;
+		vertical-align: text-bottom;
+		position: absolute;
+		top: 0;
+		right: 0;
+		fill: $WCEU2023-Red-100;
+	}
+
+	.wp-block-search__input {
+		width: 0;
+		min-width: 0;
+		padding: 10px;
+		opacity: 0;
+		visibility: hidden;
+		transition: width 0.3s ease-in-out, padding 0.3s ease-in-out,
+			opacity 0.3s ease-in-out;
+	}
+
+	.wp-block-search__button {
+		position: static;
+	}
+
+	.wp-block-search__inside-wrapper:hover .wp-block-search__input,
+	.wp-block-search__inside-wrapper:focus .wp-block-search__input {
+		width: 450px;
+		opacity: 1;
+		visibility: visible;
+	}
+}

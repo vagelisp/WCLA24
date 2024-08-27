@@ -1,0 +1,63 @@
+/*
+WCEU 2023 CUSTOM REMOTE CSS
+  This file is used to add custom CSS remotely to the WCEU 2023 site.
+  Team members: Ioanna Mitsani [@]IoannaMitsani, Vagelis Papaioannou @[vagpapdev], Deborah Butler
+  Github repo: https://github.com/wceu/wceu2023
+
+/*--------------------------------------------------------------
+# Variables
+--------------------------------------------------------------*/
+@import "variables/fonts";
+@import "variables/colors";
+
+/*--------------------------------------------------------------
+# Mixins
+--------------------------------------------------------------*/
+@import "mixins/responsive";
+
+/*--------------------------------------------------------------
+# Base
+--------------------------------------------------------------*/
+@import "base/typography";
+
+/*--------------------------------------------------------------
+# Components
+--------------------------------------------------------------*/
+@import "components/layout";
+@import "components/header";
+@import "components/footer";
+
+/*--------------------------------------------------------------
+# Templates / pages
+--------------------------------------------------------------*/
+@import "templates/front-page";
+@import "templates/tickets-page";
+@import "templates/single-post";
+@import "templates/call-for-speakers";
+// @import "templates/call-for-sponsors"; // disabled
+@import "templates/call-for-volunteers";
+@import "templates/call-for-photographers";
+@import "templates/organisers";
+@import "templates/attendees";
+@import "templates/speakers";
+@import "templates/single-speaker";
+@import "templates/single-session";
+@import "templates/single-sponsor";
+@import "templates/sponsors-page";
+@import "templates/badges";
+@import "templates/media-sponsors";
+@import "templates/speakers-announcements";
+@import "templates/schedule";
+@import "templates/tv_template";
+
+/*--------------------------------------------------------------
+# Template Parts
+--------------------------------------------------------------*/
+@import "template-parts/page-covers";
+@import "template-parts/latest-news";
+@import "template-parts/wc-community";
+@import "template-parts/contact-form";
+@import "template-parts/index-table";
+@import "template-parts/sponsor-tier";
+@import "template-parts/sponsors";
+@import "template-parts/pagination";

@@ -1,0 +1,77 @@
+.home,
+.page-id-16318, 
+.page-id-16383,
+.page-id-16389 {
+
+	/* hero section */
+	.home-hero {
+		position: relative;
+		overflow: hidden;
+		margin-top: -1.5rem;
+
+		&::after {
+			content: "";
+			display: block;
+			position: absolute;
+			background-image: url(//europe.wordcamp.org/2023/files/2022/12/homepage-hero-section-symbol.png);
+			background-position: top right;
+			background-repeat: no-repeat;
+			z-index: 10;
+			width: 600px;
+			height: 600px;
+			bottom: -100px;
+			right: 0;
+
+			@include media-max(sm) {
+				display: none;
+			}
+		}
+
+		h1,
+		p {
+			color: $WCEU2023-DarkBlue-100;
+			font-weight: $ExtraBold;
+		}
+
+		p {
+			font-weight: $SemiBold;
+		}
+
+		.wp-block-button .wp-block-button__link {
+			font-family: $Mulish;
+			background-color: $WCEU2023-Red-100;
+			padding: 15px 25px;
+			font-weight: bold;
+		}
+		.secondary-button { 
+			a {
+				background-color: #fff !important;
+				color: $WCEU2023-Red-100 !important;
+			}
+		}
+	}
+
+	.announcement-post {
+		padding: 16vh 0;
+
+		a.wp-block-latest-posts__post-title {
+			color: $WCEU2023-Red-100;
+			font-family: $Philosopher;
+			text-decoration: none;
+			font-weight: $Bold;
+		}
+	}
+
+	.wp-block-columns.cd-section {
+		background-image: url('//europe.wordcamp.org/2023/files/2023/06/WCEU2023-Symbols34.png');
+		background-repeat: no-repeat;
+		background-position: 90% 90%;
+		background-size: 250px;
+		overflow: hidden;
+		p {
+			line-height: 2.0 !important;
+			font-size: 22px !important;
+		}
+	}
+}
+

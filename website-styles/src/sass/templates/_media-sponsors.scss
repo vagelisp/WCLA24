@@ -1,0 +1,23 @@
+.page-id-11600 {
+		@include media-min(md) {
+		.wp-site-blocks {
+			background: url(//europe.wordcamp.org/2023/files/2023/02/all-speakers-page-vector.png);
+			background-repeat: no-repeat;
+			background-size: 600px;
+			background-position: -200px 35%;
+		}
+	}
+	.media-partners-container {
+		max-width: 1200px !important;
+		img {
+			height: auto;
+			height: 150px;
+			object-fit: contain;
+		}
+	}
+
+	.footer-subscribe, 
+	.social-bar {
+		display: none;
+	}
+}

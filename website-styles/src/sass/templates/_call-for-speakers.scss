@@ -1,0 +1,37 @@
+.page-id-1950 {
+	.cfs-topics {
+		background: $WCEU2023-Yellow-20 !important;
+
+		@include media-min(md) {
+			min-height: 560px !important;
+		}
+
+		.has-large-font-size {
+			color: $WCEU2023-Red-100 !important;
+		}
+	}
+
+	.cfs-bottom {
+
+		background: $WCEU2023-Yellow-20 !important;
+
+		.has-large-font-size {
+			color: $WCEU2023-Red-100 !important;
+		}
+	}
+
+	.wp-block-jetpack-contact-form {
+		label {
+			color: $WCEU2023-DarkBlue-100 !important;
+		}
+
+		.wp-block-heading {
+			color: $WCEU2023-Red-100 !important;
+		}
+
+		.wp-block-button__link {
+			width: 100%;
+			margin-bottom: 3rem !important;
+		}
+	}
+}

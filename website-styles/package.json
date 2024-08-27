@@ -1,0 +1,19 @@
+{
+  "name": "wcla24-greece-website-styles",
+  "version": "1.0.0",
+  "description": "Resources for the WCLA, Greece 2024 website",
+  "author": "The Website Team",
+  "license": "GPL-2.0-or-later",
+  "private": true,
+  "devDependencies": {
+    "@wordpress/scripts": "^28.6.0"
+  },
+  "scripts": {
+    "build": "wp-scripts build ./src/wcla2024.js",
+    "format": "wp-scripts format",
+    "lint:css": "wp-scripts lint-style",
+    "packages-update": "wp-scripts packages-update",
+    "start": "wp-scripts start ./src/wcla2024.js"
+  },
+  "main": "index.js"
+}

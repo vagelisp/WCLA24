@@ -1,0 +1,137 @@
+.page-id-12 {
+	.wp-container-19.wp-container-19 > :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
+		max-width: 1440px;
+	}
+
+	@include media-min(md) {
+		.wp-site-blocks {
+			background:
+				url(//europe.wordcamp.org/2023/files/2023/01/WCEU2023-OrganisersPage.png),
+				url(//europe.wordcamp.org/2023/files/2023/01/WCEU2023-OrganisersPage2.png),
+				url(//europe.wordcamp.org/2023/files/2023/01/WCEU2023-OrganisersPage.png),
+				url(//europe.wordcamp.org/2023/files/2023/01/WCEU2023-OrganisersPage2.png),
+				url(//europe.wordcamp.org/2023/files/2023/01/WCEU2023-OrganisersPage.png);
+			background-repeat: no-repeat;
+			background-size: 100%;
+			background-position:
+				-700px 5%,
+				700px 25%,
+				-700px 45%,
+				700px 65%,
+				-700px 85%;
+		}
+	}
+
+	main {
+		overflow-x: hidden;
+
+		.wp-block-group {
+			max-width: 1680px !important;
+			margin-left: auto !important;
+			margin-right: auto !important;
+			margin-bottom: 40px;
+		}
+	}
+
+	hr {
+		border-color: $WCEU2023-DarkBlue-100;
+		width: 100% !important;
+		margin: 40px;
+	}
+
+	.wordcamp-post-list {
+		grid-column-gap: 2.5em !important;
+		margin-top: 30px !important;
+		margin-left: auto !important;
+		margin-right: auto !important;
+
+		@include media-max(md) {
+			padding: 0;
+		}
+
+		li:first-child,
+		.slug-jose-freitas,
+		.slug-sjoerd-blom,
+		.slug-laura-sacco {
+			img {
+				border: 10px solid $WCEU2023-Turquoise-100 !important;
+			}
+		}
+	}
+
+	.wordcamp-organizer {
+		.wordcamp-image__avatar-container {
+
+			@include media-min(md) {
+				text-align: left !important;
+			}
+		}
+
+		// padding: 20px;
+		.wordcamp-organizers__title {
+
+			@include media-min(md) {
+				text-align: left !important;
+				// word-spacing: 100vw; // hack to make the text wrap
+				font-size: 2.2rem; // decreased the font size as we have ppl with more than 3 words in their name
+			}
+
+			color: $WCEU2023-Red-100;
+		}
+
+		img {
+			border: 10px solid $WCEU2023-Blue-100;
+			border-radius: 100%;
+			width: 60% !important;
+			height: auto !important;
+
+			@include media-max(sm) {
+				width: 90% !important;
+			}
+		}
+
+		.wordcamp-organizers__content {
+			// padding: 0 40px;
+		}
+
+		.organizer-links {
+			ul {
+				line-height: unset;
+			}
+
+			color: $WCEU2023-Blue-100;
+
+			a {
+				color: $WCEU2023-Red-100;
+			}
+		}
+	}
+
+	.acknowledgements {
+		.person {
+			.wp-block-image {
+				img {
+					border-radius: 50% !important;
+					height: 250px;
+					width: 250px;
+					object-fit: cover;
+				}
+			}
+
+			.wp-block-heading {
+				font-weight: 700;
+				margin-bottom: -25px;
+				}
+
+			.has-small-font-size {
+				font-size: 14px !important;
+				}
+		}
+	}
+
+	// hide images in organizers bio
+	.wordcamp-block__item-content.wordcamp-organizers__content.is-full img {
+		display: none;
+	}
+
+}

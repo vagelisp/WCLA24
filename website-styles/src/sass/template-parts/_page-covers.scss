@@ -1,0 +1,113 @@
+.page-cover {
+	margin-top: 0;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: 80% 50%;
+
+	@include media-max(md) {
+		background-position: bottom right;
+		min-height: 200px !important;
+	}
+
+	.wp-block-post-title,
+	.wp-block-heading {
+		color: $WCEU2023-DarkBlue-100 !important;
+	}
+
+	&.blue-cover {
+		background-color: $WCEU2023-Blue-60;
+		background-image: url(//europe.wordcamp.org/2023/files/2023/01/call-for-cover-symbol.png);
+	}
+
+	&.pink-cover {
+		background-color: $WCEU2023-Red-60;
+		background-image: url(//europe.wordcamp.org/2023/files/2023/01/WCEU2023-OrganisersPage-Cover.png);
+		background-size: 600px;
+	}
+
+	&.turquoise-cover {
+		background-color: $WCEU2023-Turquoise-60;
+		background-image: url(//europe.wordcamp.org/2023/files/2023/01/contact-page-cover-symbol.png);
+		background-size: 900px;
+		background-position: right 180px;
+	}
+
+	&.yellow-cover {
+		background-color: $WCEU2023-Yellow-80;
+		background-image: url(//europe.wordcamp.org/2023/files/2023/01/latest-news-page-cover-symbol.png);
+	}
+}
+
+// calls template header bg override
+.page-template-wp-custom-template-calls-template,
+.page-id-3694 {
+	header {
+		.wp-block-group.has-background {
+			background-color: $WCEU2023-Blue-60 !important;
+		}
+	}
+}
+
+// organisers template header bg override | sponsors page | single sponsor page
+.page-template-wp-custom-template-organisers-template,
+.page-template-wp-custom-template-sponsors,
+.single-wcb_sponsor {
+	header {
+		.wp-block-group.has-background {
+			background-color: $WCEU2023-Red-60 !important;
+		}
+	}
+}
+
+// organisers template header bg override
+.page-template-wp-custom-template-contact-page-template {
+	header {
+		.wp-block-group.has-background {
+			background-color: $WCEU2023-Turquoise-60 !important;
+		}
+	}
+}
+
+// news page | search page
+.category-news,
+.search-results {
+	header {
+		.wp-block-group.has-background {
+			background-color: $WCEU2023-Yellow-80 !important;
+		}
+	}
+}
+
+// speakers page & single speaker page | schedule page
+.single-wcb_speaker,
+.page-template-wp-custom-template-speakers,
+.page-template-wp-custom-template-schedule {
+	header {
+		.wp-block-group.has-background {
+			background-color: $WCEU2023-Red-60 !important;
+		}
+	}
+	.page-cover {
+		h4 {
+			font-size: 1.3rem;
+			font-weight: bold;
+			margin-bottom: -15px;
+		}
+	}
+}
+
+// single session page
+.single-wcb_session {
+	header {
+		.wp-block-group.has-background {
+			background-color: $WCEU2023-Red-60 !important;
+		}
+	}
+	.page-cover {
+		h4 {
+			font-size: 1.3rem;
+			font-weight: bold;
+			margin-bottom: -15px;
+		}
+	}
+}

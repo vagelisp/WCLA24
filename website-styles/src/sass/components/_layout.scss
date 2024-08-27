@@ -1,0 +1,49 @@
+//global classes
+.alignwide {
+	max-width: 1680px !important;
+	margin: 0 auto !important;
+}
+
+.mw-1200 {
+	max-width: 1200px !important;
+	margin-left: auto !important;
+	margin-right: auto !important;
+}
+
+.bold {
+	font-weight: $Bold !important;
+}
+
+.disabled {
+	opacity: 0.8;
+	pointer-events: none;
+}
+
+.d-none {
+	display: none !important;
+}
+
+.m-top-0 {
+	margin-top: 0 !important;
+}
+
+@include media-max(xxl) {
+	.mw-90 {
+		width: 90% !important;
+		margin: 0 auto !important;
+	}
+}
+
+.top-logo {
+	img {
+		width: 180px;
+		position: absolute;
+		top: -50px;
+		z-index: 99;
+	}
+}
+
+label.grunion-radio-label,
+.grunion-checkbox-multiple-label {
+	font-weight: $Bold !important;
+}

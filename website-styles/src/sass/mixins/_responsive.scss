@@ -1,0 +1,68 @@
+@use "sass:map";
+
+// A map of breakpoints.
+// Feel free to adjust these.
+$breakpoints: (
+	xs: 576px,
+	sm: 768px,
+	md: 992px,
+	lg: 1280px,
+	xl: 1440px,
+	xxl: 1920px,
+);
+
+// Media Max. ( min-width: breakpoint ).
+
+/* Example usage:
+	@include media-max(sm) {
+		.element {
+			font-weight: bold;
+		}
+	}
+*/
+
+@mixin media-max($breakpoint) {
+	// If the breakpoint exists in the map.
+	@if map-has-key($breakpoints, $breakpoint) {
+		// Get the breakpoint value.
+		$breakpoint-value: map.get($breakpoints, $breakpoint);
+
+		// Write the media query.
+		@media (max-width: $breakpoint-value) {
+			@content;
+		}
+
+		// If the breakpoint doesn't exist in the map.
+	} @else {
+		// Log a warning.
+		@warn "Invalid breakpoint: #{$breakpoint}.";
+	}
+}
+
+// Media Min. ( max-width: breakpoint )
+
+/* Example usage:
+	@include media-min(sm) {
+		.element {
+			font-weight: bold;
+		}
+	}
+*/
+
+@mixin media-min($breakpoint) {
+	// If the breakpoint exists in the map.
+	@if map-has-key($breakpoints, $breakpoint) {
+		// Get the breakpoint value.
+		$breakpoint-value: map.get($breakpoints, $breakpoint);
+
+		// Write the media query.
+		@media (min-width: $breakpoint-value) {
+			@content;
+		}
+
+		// If the breakpoint doesn't exist in the map.
+	} @else {
+		// Log a warning.
+		@warn "Invalid breakpoint: #{$breakpoint}.";
+	}
+}

@@ -1,0 +1,141 @@
+/*  Footer
+	========================================================================== */
+
+footer {
+	margin-bottom: -25px !important;
+
+	.wceu23footer {
+		background-image: url(//europe.wordcamp.org/2023/files/2022/12/footer-background-symbol.png);
+		background-size: 800px;
+		background-repeat: no-repeat;
+		background-position: top 250px right -50px;
+
+		@include media-max(sm) {
+			background-position: bottom -100px right -100px;
+			background-size: 600px;
+			padding-bottom: 0;
+		}
+	}
+
+	.is-layout-flex {
+
+		@include media-max(md) {
+			gap: 3.5rem;
+		}
+	}
+
+	.wp-block-button__link {
+		background: #fff;
+		color: #0a3773;
+	}
+
+	a:not(.wp-block-social-link-anchor),
+	p,
+	h4 {
+		color: #fff;
+		text-decoration: none;
+	}
+
+	.wp-block-navigation .wp-block-navigation-item__label {
+		font-size: "1.2rem";
+		color: #fff;
+	}
+
+	.wp-block-navigation__container {
+
+		@include media-max(sm) {
+			justify-content: flex-start;
+		}
+
+		span {
+			font-size: "1.2rem";
+			color: #fff;
+		}
+	}
+
+	//social-bar
+	.social-bar {
+		background: url(//europe.wordcamp.org/2023/files/2022/12/Social-Media-Banner-bg.png);
+		background-size: cover;
+		margin-bottom: -10px;
+
+		.wp-block-social-links {
+			justify-content: space-evenly;
+		}
+	}
+
+	.footer-subscribe {
+		overflow: hidden;
+
+		.inner-footer-subscribe-container {
+
+			@include media-max(sm) {
+				padding: 20px !important;
+			}
+		}
+
+
+		form {
+			margin-top: 50px;
+
+			#subscribe-email {
+				position: relative;
+
+				#jetpack-subscribe-label {
+					top: -30px;
+					width: auto;
+					clip: unset;
+					clip-path: none;
+					height: auto;
+					font-family: $Mulish;
+					font-weight: $SemiBold;
+					font-size: 1rem !important;
+				}
+			}
+
+			button {
+				cursor: pointer;
+			}
+		}
+
+		.wp-block-column {
+			position: relative;
+			z-index: 2;
+
+			&::before {
+				content: "";
+				position: absolute;
+				display: block;
+				background: url(//europe.wordcamp.org/2023/files/2022/12/Pattern-1.png);
+				background-position: top left;
+				background-repeat: no-repeat;
+				background-size: 300px;
+				width: 300px;
+				height: 150px;
+				bottom: 0;
+				left: 0;
+			}
+
+			&::after {
+				content: "";
+				position: absolute;
+				display: block;
+				z-index: -1;
+				background: url(//europe.wordcamp.org/2023/files/2023/01/WCEU2023-Newsletter_Symbol.png);
+				background-repeat: no-repeat;
+				background-position: top left;
+				background-size: 600px;
+				width: 600px;
+				height: 300px;
+				bottom: 0;
+				right: -200px;
+			}
+		}
+
+		button.wp-block-button__link.no-border-radius {
+			font-family: $Mulish;
+			font-weight: $SemiBold;
+			color: #fff !important;
+		}
+	}
+}

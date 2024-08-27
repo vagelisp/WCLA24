@@ -1,0 +1,15 @@
+.page-template-wp-custom-template-sponsors {
+	.sharedaddy {
+		display: none;
+	}
+	@include media-min(md) {
+		.wp-site-blocks {
+			background:
+				url(//europe.wordcamp.org/2023/files/2023/04/sponsors-page-background.png),
+				url(//europe.wordcamp.org/2023/files/2023/04/sponsors-page-background-2.png);
+			background-position: 0 25%, 100% 60%;
+			background-repeat: no-repeat;
+			background-size: 600px;
+		}
+	}
+}

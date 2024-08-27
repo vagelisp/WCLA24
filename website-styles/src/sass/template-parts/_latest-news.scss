@@ -1,0 +1,118 @@
+.latest-news {
+	overflow: hidden;
+	background-color: #fbd363;
+	background-image: url(//europe.wordcamp.org/2023/files/2023/01/latest_news_section_symbol.png);
+	background-repeat: no-repeat;
+	padding-top: 60px;
+	padding-bottom: 60px;
+
+	a.wp-block-read-more {
+		margin: 0;
+	}
+
+	@include media-max(md) {
+		background-position: bottom right;
+	}
+
+
+	ul {
+		max-width: 1680px !important;
+	}
+
+	.wp-block-post-excerpt {
+		margin-top: 0;
+	}
+
+	.wp-block-post-excerpt__excerpt {
+		max-height: 80px;
+		overflow: hidden;
+		display: inline-block;
+	}
+
+	.wp-block-post-title {
+		font-family: $Philosopher !important;
+		font-weight: $Bold !important;
+		color: $WCEU2023-Red-100;
+		font-size: 2rem;
+		margin-top: 0;
+	}
+
+	@include media-max(xxl) {
+		.home-articles {
+ 	   		width: 90%!important;
+			margin: 0 auto !important;
+		}
+		.alignfull:not(.wp-block-group) .alignfull {
+			width: 90%!important;
+			margin: 0 auto !important;
+		}
+	}
+
+	@include media-min(lg) {
+		.home-articles {
+ 	   		width: 90%!important;
+		}
+	}
+
+	
+}
+	
+// archive page | search page | Athens Guide page <3 
+.category-news,
+.search-results, 
+.page-id-8446 {
+	.latest-news {
+
+		background-image: url(//europe.wordcamp.org/2023/files/2023/01/latest-news-page-background-symbol.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		background-color: transparent;
+		margin-bottom: -25px;
+
+		.wp-block-post-date {
+			color: $WCEU2023-Red-100;
+		}
+
+		.wp-block-post-title,
+		.wp-block-post-excerpt {
+			color: $WCEU2023-DarkBlue-100;
+		}
+
+	}
+
+}
+
+.page-id-8446 { 
+	ul {max-width: 1200px !important;}
+}
+
+// homepage
+.home {
+	.latest-news {
+		background-color: #fbd363;
+		background-image: url(//europe.wordcamp.org/2023/files/2023/01/latest_news_section_symbol.png);
+		background-repeat: no-repeat;
+	}
+}
+
+//single post
+.single-post {
+	.latest-news {
+		background: $WCEU2023-Yellow-40;
+
+		.wp-block-heading {
+			color: $WCEU2023-DarkBlue-100 !important;
+			padding: 0 45px;
+		}
+
+		.wp-block-post-date {
+			color: $WCEU2023-Red-100;
+		}
+
+		.wp-block-post-title,
+		.wp-block-post-excerpt {
+			color: $WCEU2023-DarkBlue-100;
+		}
+	}
+}

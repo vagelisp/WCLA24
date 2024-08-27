@@ -1,0 +1,61 @@
+.wordcamp-sponsors__logo {
+	img {
+		height: auto;
+	}
+}
+
+.wordcamp-post-list {
+	&.has-layout-grid {
+		padding: 0 !important;
+	}
+}
+
+[class*="block-sponsors"] {
+	display: flex !important;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+
+.block-sponsors-superadmin {
+	li {
+		flex: 0 1 90%;
+		margin: 0 auto;
+		@include media-min(md) {
+			flex: 0 1 23%;
+			margin: 0 1%;
+		}
+	}
+}
+.block-sponsors-admin,
+.block-sponsors-editor,
+.block-sponsors-author {
+	li {
+		flex: 0 1 80%;
+		margin: 0 auto;
+		@include media-min(md) {
+			flex: 0 1 18%;
+			margin: 0 1%;
+		}
+	}
+}
+.block-sponsors-smallbusines {
+	li {
+		flex: 0 1 80%;
+		margin: 0 auto;
+		@include media-min(md) {
+			flex: 0 1 15%;
+			margin: 0 1%;
+		}
+	}
+}
+.block-sponsors-afterparty,
+.block-sponsors-charging {
+	li {
+		flex: 0 1 80%;
+		margin: 0 auto;
+		@include media-min(md) {
+			flex: 0 1 48%;
+			margin: 0 1%;
+		}
+	}
+}
