@@ -6,7 +6,7 @@ header {
 		ul,
 		.wp-block-navigation-item__label {
 			font-family: $Mulish;
-			color: $WCEU2023-DarkBlue-100;
+			color: $WCLA24-DarkBlue-100;
 
 			@include media-max(md) {
 				font-size: "1.5rem";
@@ -30,7 +30,7 @@ header {
 	}
 
 	.wp-block-navigation__responsive-container.is-menu-open {
-		background-color: $WCEU2023-Turquoise-100 !important;
+		background-color: $WCLA24-Turquoise-100 !important;
 	}
 
 	@include media-max(lg) {
@@ -40,7 +40,7 @@ header {
 			background-size: auto 102vh;
 
 			a.wp-block-navigation-item__content {
-				color: $WCEU2023-Red-100 !important;
+				color: $WCLA24-Red-100 !important;
 			}
 
 			.wp-block-navigation__submenu-container {
@@ -98,7 +98,7 @@ header {
 		position: absolute;
 		top: 0;
 		right: 0;
-		fill: $WCEU2023-Red-100;
+		fill: $WCLA24-Red-100;
 	}
 
 	.wp-block-search__input {

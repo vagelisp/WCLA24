@@ -6,19 +6,19 @@
 	}
 
 	.grunion-field-label {
-		color: $WCEU2023-DarkBlue-100;
+		color: $WCLA24-DarkBlue-100;
 	}
 
 	input[type="text"] {
-		border: 1px solid $WCEU2023-DarkBlue-100;
+		border: 1px solid $WCLA24-DarkBlue-100;
 	}
 
 	//copied from tickets page
 	button {
-		background-color: $WCEU2023-Red-100 !important;
+		background-color: $WCLA24-Red-100 !important;
 		border: none;
 		border-radius: 2rem;
-		color: $WCEU2023-TotalWhite-100;
+		color: $WCLA24-TotalWhite-100;
 		font-family: $Mulish;
 		font-size: 1.2rem;
 		font-weight: $ExtraBold;
@@ -29,7 +29,7 @@
 		width: 100%;
 
 		&:hover {
-			background-color: $WCEU2023-Red-80;
+			background-color: $WCLA24-Red-80;
 		}
 	}
 }

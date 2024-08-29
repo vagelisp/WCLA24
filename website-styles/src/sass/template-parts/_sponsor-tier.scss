@@ -1,11 +1,11 @@
 .sponsor-tier {
-	background: $WCEU2023-Yellow-20 !important;
-	color: $WCEU2023-DarkBlue-100;
+	background: $WCLA24-Yellow-20 !important;
+	color: $WCLA24-DarkBlue-100;
 	font-weight: $SemiBold;
 	padding: 40px;
 
 	.wp-block-heading {
-		color: $WCEU2023-Red-100;
+		color: $WCLA24-Red-100;
 		text-transform: none;
 	}
 
@@ -15,10 +15,10 @@
 
 	.tier-top {
 		padding-bottom: 15px;
-		border-bottom: 10px solid $WCEU2023-DarkBlue-100 !important;
+		border-bottom: 10px solid $WCLA24-DarkBlue-100 !important;
 
 		li {
-			color: $WCEU2023-Red-100;
+			color: $WCLA24-Red-100;
 			font-weight: $Bold;
 		}
 	}

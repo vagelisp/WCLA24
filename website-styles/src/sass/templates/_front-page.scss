@@ -29,7 +29,7 @@
 
 		h1,
 		p {
-			color: $WCEU2023-DarkBlue-100;
+			color: $WCLA24-DarkBlue-100;
 			font-weight: $ExtraBold;
 		}
 
@@ -39,14 +39,14 @@
 
 		.wp-block-button .wp-block-button__link {
 			font-family: $Mulish;
-			background-color: $WCEU2023-Red-100;
+			background-color: $WCLA24-Red-100;
 			padding: 15px 25px;
 			font-weight: bold;
 		}
 		.secondary-button { 
 			a {
 				background-color: #fff !important;
-				color: $WCEU2023-Red-100 !important;
+				color: $WCLA24-Red-100 !important;
 			}
 		}
 	}
@@ -55,7 +55,7 @@
 		padding: 16vh 0;
 
 		a.wp-block-latest-posts__post-title {
-			color: $WCEU2023-Red-100;
+			color: $WCLA24-Red-100;
 			font-family: $Philosopher;
 			text-decoration: none;
 			font-weight: $Bold;

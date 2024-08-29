@@ -32,7 +32,7 @@
 	.wp-block-post-title {
 		font-family: $Philosopher !important;
 		font-weight: $Bold !important;
-		color: $WCEU2023-Red-100;
+		color: $WCLA24-Red-100;
 		font-size: 2rem;
 		margin-top: 0;
 	}
@@ -71,12 +71,12 @@
 		margin-bottom: -25px;
 
 		.wp-block-post-date {
-			color: $WCEU2023-Red-100;
+			color: $WCLA24-Red-100;
 		}
 
 		.wp-block-post-title,
 		.wp-block-post-excerpt {
-			color: $WCEU2023-DarkBlue-100;
+			color: $WCLA24-DarkBlue-100;
 		}
 
 	}
@@ -99,20 +99,20 @@
 //single post
 .single-post {
 	.latest-news {
-		background: $WCEU2023-Yellow-40;
+		background: $WCLA24-Yellow-40;
 
 		.wp-block-heading {
-			color: $WCEU2023-DarkBlue-100 !important;
+			color: $WCLA24-DarkBlue-100 !important;
 			padding: 0 45px;
 		}
 
 		.wp-block-post-date {
-			color: $WCEU2023-Red-100;
+			color: $WCLA24-Red-100;
 		}
 
 		.wp-block-post-title,
 		.wp-block-post-excerpt {
-			color: $WCEU2023-DarkBlue-100;
+			color: $WCLA24-DarkBlue-100;
 		}
 	}
 }

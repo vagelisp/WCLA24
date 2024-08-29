@@ -1,9 +1,9 @@
 .entry-content {
 	#tix {
 		table.tix_tickets_table {
-			background-color: $WCEU2023-Yellow-20;
+			background-color: $WCLA24-Yellow-20;
 			border-collapse: collapse;
-			color: $WCEU2023-DarkBlue-100;
+			color: $WCLA24-DarkBlue-100;
 			font-family: $Mulish;
 
 			thead {
@@ -19,7 +19,7 @@
 				tr {
 					> th,
 					> td {
-						background: $WCEU2023-Yellow-20;
+						background: $WCLA24-Yellow-20;
 						box-sizing: border-box;
 						padding: 1.5rem 2rem;
 
@@ -34,7 +34,7 @@
 			&.tix-tickets-list {
 				thead {
 					tr {
-						border-bottom: 2px solid $WCEU2023-DarkBlue-100;
+						border-bottom: 2px solid $WCLA24-DarkBlue-100;
 
 						th {
 							&.tix-column-description {
@@ -48,15 +48,15 @@
 					tr {
 						> th,
 						> td {
-							background: $WCEU2023-Yellow-20;
+							background: $WCLA24-Yellow-20;
 
 							&:nth-child(even) {
-								background: $WCEU2023-Yellow-10;
+								background: $WCLA24-Yellow-10;
 							}
 						}
 
 						&:not(:last-child) {
-							border-bottom: 2px solid $WCEU2023-DarkBlue-100;
+							border-bottom: 2px solid $WCLA24-DarkBlue-100;
 						}
 
 						th {
@@ -88,8 +88,8 @@
 			&.tix-order-summary {
 				thead {
 					tr {
-						background-color: $WCEU2023-Yellow-40;
-						border-bottom: 2px solid $WCEU2023-DarkBlue-100;
+						background-color: $WCLA24-Yellow-40;
+						border-bottom: 2px solid $WCLA24-DarkBlue-100;
 
 						th {
 							&.tix-column-description {
@@ -115,10 +115,10 @@
 
 						> th,
 						> td {
-							background: $WCEU2023-Yellow-20;
+							background: $WCLA24-Yellow-20;
 
 							&:nth-child(even) {
-								background: $WCEU2023-Yellow-10;
+								background: $WCLA24-Yellow-10;
 							}
 						}
 					}
@@ -133,8 +133,8 @@
 					tr {
 						&:first-child {
 							> th {
-								border-bottom: 2px solid $WCEU2023-DarkBlue-100;
-								background-color: $WCEU2023-Yellow-40;
+								border-bottom: 2px solid $WCLA24-DarkBlue-100;
+								background-color: $WCLA24-Yellow-40;
 							}
 						}
 
@@ -157,8 +157,8 @@
 
 				// Inputs
 				input {
-					background-color: $WCEU2023-TotalWhite-100;
-					border: 2px solid $WCEU2023-Yellow-100;
+					background-color: $WCLA24-TotalWhite-100;
+					border: 2px solid $WCLA24-Yellow-100;
 					font-size: var(--wp--preset--font-size--medium);
 					line-height: 2;
 					padding: 1rem;
@@ -172,8 +172,8 @@
 				}
 
 				textarea {
-					background-color: $WCEU2023-TotalWhite-100;
-					border: 2px solid $WCEU2023-Yellow-100;
+					background-color: $WCLA24-TotalWhite-100;
+					border: 2px solid $WCLA24-Yellow-100;
 					font-size: var(--wp--preset--font-size--medium);
 					line-height: 2;
 					padding: 1rem;
@@ -182,8 +182,8 @@
 				}
 
 				select {
-					background-color: $WCEU2023-TotalWhite-100;
-					border: 2px solid $WCEU2023-Yellow-100;
+					background-color: $WCLA24-TotalWhite-100;
+					border: 2px solid $WCLA24-Yellow-100;
 					font-size: var(--wp--preset--font-size--medium);
 					line-height: 2;
 					padding: 1rem;
@@ -220,8 +220,8 @@
 
 				// Inputs
 				input {
-					background-color: $WCEU2023-TotalWhite-100;
-					border: 2px solid $WCEU2023-Yellow-100;
+					background-color: $WCLA24-TotalWhite-100;
+					border: 2px solid $WCLA24-Yellow-100;
 					font-size: var(--wp--preset--font-size--medium);
 					line-height: 2;
 					padding: 1rem;
@@ -235,8 +235,8 @@
 				}
 
 				textarea {
-					background-color: $WCEU2023-TotalWhite-100;
-					border: 2px solid $WCEU2023-Yellow-100;
+					background-color: $WCLA24-TotalWhite-100;
+					border: 2px solid $WCLA24-Yellow-100;
 					font-size: var(--wp--preset--font-size--medium);
 					line-height: 2;
 					padding: 1rem;
@@ -253,10 +253,10 @@
 
 		// Submit button.
 		input[type="submit"] {
-			background-color: $WCEU2023-Red-100;
+			background-color: $WCLA24-Red-100;
 			border: none;
 			border-radius: 2rem;
-			color: $WCEU2023-TotalWhite-100;
+			color: $WCLA24-TotalWhite-100;
 			font-family: $Mulish;
 			font-size: 1.2rem;
 			font-weight: $Bold;
@@ -268,7 +268,7 @@
 			width: 100%;
 
 			&:hover {
-				background-color: $WCEU2023-Red-80;
+				background-color: $WCLA24-Red-80;
 			}
 		}
 
@@ -352,9 +352,9 @@
 
 	#tix-errors {
 		.tix-error {
-			background-color: $WCEU2023-Red-100;
+			background-color: $WCLA24-Red-100;
 			border: none;
-			color: $WCEU2023-TotalWhite-100;
+			color: $WCLA24-TotalWhite-100;
 			font-weight: $SemiBold;
 			padding: 1em;
 		}

@@ -29,12 +29,12 @@
 
 // global schedule styles
 .wordcamp-schedule__day {
-	border-left: 8px solid $WCEU2023-Yellow-80;
-	background-color: $WCEU2023-Yellow-40 !important;
+	border-left: 8px solid $WCLA24-Yellow-80;
+	background-color: $WCLA24-Yellow-40 !important;
 
 
 	.wordcamp-schedule__time-slot-header {
-		background-color: $WCEU2023-Yellow-60 !important;
+		background-color: $WCLA24-Yellow-60 !important;
 		font-weight: $Bold;
 		font-size: 1rem;
 		box-shadow: none !important;
@@ -43,20 +43,20 @@
 	.wordcamp-schedule__column-header {
 		font-size: 1.2rem;
 		line-height: 3;
-		background-color: $WCEU2023-Yellow-80 !important;
-		color: $WCEU2023-DarkBlue-100;
+		background-color: $WCLA24-Yellow-80 !important;
+		color: $WCLA24-DarkBlue-100;
 	}
 
 	.wordcamp-schedule__session {
-		background-color: $WCEU2023-Yellow-40;
+		background-color: $WCLA24-Yellow-40;
 
 		&:hover {
-			background-color: $WCEU2023-Yellow-60;
+			background-color: $WCLA24-Yellow-60;
 		}
 	}
 
 	.wordcamp-schedule__session-category {
-		color: $WCEU2023-Red-100;
+		color: $WCLA24-Red-100;
 	}
 
 	.wordcamp-schedule__session-title {
@@ -64,7 +64,7 @@
 		font-weight: 600;
 		a {
 			&:not(.fav-session-button) {
-				color: $WCEU2023-DarkBlue-100;
+				color: $WCLA24-DarkBlue-100;
 			}
 		}
 	}
@@ -74,7 +74,7 @@
 	}
 
 	a.fav-session-button {
-		color: $WCEU2023-DarkBlue-100;
+		color: $WCLA24-DarkBlue-100;
 	}
 
 	.dashicons-star-filled:before {
@@ -83,7 +83,7 @@
 
 	.wcb-favourite-session {
 		.fav-session-button {
-			color: $WCEU2023-Yellow-100;
+			color: $WCLA24-Yellow-100;
 		}
 
 		.dashicons-star-filled:before {
