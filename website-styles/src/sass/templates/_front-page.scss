@@ -1,34 +1,33 @@
-.home,
-.page-id-16318,
-.page-id-16383,
-.page-id-16389 {
+.home {
+
+	p {
+		font-size: 1.375rem;
+	}
 
 	/* hero section */
 	.home-hero {
-		position: relative;
-		overflow: hidden;
 		margin-top: -1.5rem;
 
-		h1,
-		p {
+		.wp-block-columns {
+			padding-top: 3.75rem;
+			padding-bottom: 10rem;
+		}
+
+		h1 {
 			color: $WCLA24-TotalWhite-100;
+			font-size: 70px;
 			font-weight: $ExtraBold;
 		}
 
 		p {
-			font-weight: $SemiBold;
+			color: $WCLA24-TotalWhite-100;
+			font-size: 40px;
+			font-weight: $Bold;
 		}
 
 		.wp-block-button .wp-block-button__link {
-			background-color: $WCLA24-Orange-100;
-			padding: 15px 25px;
-			font-weight: bold;
-		}
-		.secondary-button {
-			a {
-				background-color: #fff !important;
-				color: $WCLA24-DarkRed-100 !important;
-			}
+			font-size: 2.125rem;
+			padding: 25px 70px;
 		}
 	}
 }
