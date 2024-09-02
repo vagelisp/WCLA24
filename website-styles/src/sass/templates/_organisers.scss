@@ -3,25 +3,6 @@
 		max-width: 1440px;
 	}
 
-	@include media-min(md) {
-		.wp-site-blocks {
-			background:
-				url(//europe.wordcamp.org/2023/files/2023/01/WCEU2023-OrganisersPage.png),
-				url(//europe.wordcamp.org/2023/files/2023/01/WCEU2023-OrganisersPage2.png),
-				url(//europe.wordcamp.org/2023/files/2023/01/WCEU2023-OrganisersPage.png),
-				url(//europe.wordcamp.org/2023/files/2023/01/WCEU2023-OrganisersPage2.png),
-				url(//europe.wordcamp.org/2023/files/2023/01/WCEU2023-OrganisersPage.png);
-			background-repeat: no-repeat;
-			background-size: 100%;
-			background-position:
-				-700px 5%,
-				700px 25%,
-				-700px 45%,
-				700px 65%,
-				-700px 85%;
-		}
-	}
-
 	main {
 		overflow-x: hidden;
 
@@ -34,7 +15,7 @@
 	}
 
 	hr {
-		border-color: $WCLA24-DarkBlue-100;
+		border-color: $WCLA24-DarkRed-100;
 		width: 100% !important;
 		margin: 40px;
 	}
@@ -47,15 +28,6 @@
 
 		@include media-max(md) {
 			padding: 0;
-		}
-
-		li:first-child,
-		.slug-jose-freitas,
-		.slug-sjoerd-blom,
-		.slug-laura-sacco {
-			img {
-				border: 10px solid $WCLA24-Turquoise-100 !important;
-			}
 		}
 	}
 
@@ -76,11 +48,11 @@
 				font-size: 2.2rem; // decreased the font size as we have ppl with more than 3 words in their name
 			}
 
-			color: $WCLA24-Red-100;
+			color: $WCLA24-DarkRed-100;
 		}
 
 		img {
-			border: 10px solid $WCLA24-Blue-100;
+			border: 10px solid $WCLA24-DarkRed-100;
 			border-radius: 100%;
 			width: 60% !important;
 			height: auto !important;
@@ -99,10 +71,10 @@
 				line-height: unset;
 			}
 
-			color: $WCLA24-Blue-100;
+			color: $WCLA24-DarkRed-100;
 
 			a {
-				color: $WCLA24-Red-100;
+				color: $WCLA24-DarkRed-100;
 			}
 		}
 	}

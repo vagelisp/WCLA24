@@ -2,18 +2,39 @@
 	========================================================================== */
 
 header {
+
+	.wp-block-group.alignfull {
+		background-color: $WCLA24-DarkRed-100;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+	.top-logo {
+		img {
+			width: 247px;
+		}
+	}
+
 	.wp-block-navigation {
 		ul,
-		.wp-block-navigation-item__label {
-			font-family: $Mulish;
-			color: $WCLA24-DarkBlue-100;
+		.wp-block-navigation-item__content {
+			font-family: $Primary-font;
+			color: $WCLA24-TotalWhite-100;
+			font-size: 1.375rem;
+			font-weight: $SemiBold;
+		}
 
-			@include media-max(md) {
-				font-size: "1.5rem";
-				
+		.wp-block-navigation__submenu-container {
+			background-color: $WCLA24-Beige-40;
+
+			.wp-block-navigation-item__content {
+				color: $WCLA24-DarkRed-100;
+				font-size: 1.25rem;
+				width: max-content;
 			}
 		}
 
+		// ???
 		li:last-child {
 			.wp-block-navigation__submenu-container {
 				// min-width: 400px !important;
@@ -27,20 +48,45 @@ header {
 				}
 			}
 		}
+
+		// mobile modal
+		.wp-block-navigation__responsive-container.is-menu-open {
+			background-color: $WCLA24-DarkRed-100 !important;
+
+			//.wp-block-navigation-item__label,
+			.wp-block-navigation-item__content {
+				color: $WCLA24-TotalWhite-100;
+			}
+
+			.wp-block-navigation__submenu-container {
+				li:not(:last-child) {
+					margin-bottom: 10px;
+				}
+
+				.wp-block-navigation-item__content {
+					color: $WCLA24-Beige-100;
+					font-size: 1.25rem;
+					font-weight: $Medium;
+				}
+			}
+		}
+
+		// open/close buttons
+		button.wp-block-navigation__responsive-container-open,
+		button.wp-block-navigation__responsive-container-close {
+			color: $WCLA24-TotalWhite-100;
+		}
 	}
 
-	.wp-block-navigation__responsive-container.is-menu-open {
-		background-color: $WCLA24-Turquoise-100 !important;
-	}
+	//.wp-block-navigation__responsive-container.is-menu-open {
+	//	background-color: $WCLA24-DarkRed-100 !important;
+	//}
 
 	@include media-max(lg) {
 		#modal-2 {
-			background-image: url(//europe.wordcamp.org/2023/files/2023/02/menu-symbol.png);
-			background-repeat: no-repeat;
-			background-size: auto 102vh;
 
 			a.wp-block-navigation-item__content {
-				color: $WCLA24-Red-100 !important;
+				color: $WCLA24-DarkRed-100 !important;
 			}
 
 			.wp-block-navigation__submenu-container {
@@ -98,7 +144,7 @@ header {
 		position: absolute;
 		top: 0;
 		right: 0;
-		fill: $WCLA24-Red-100;
+		fill: $WCLA24-DarkRed-100;
 	}
 
 	.wp-block-search__input {

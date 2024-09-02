@@ -1,19 +1,10 @@
 .latest-news {
-	overflow: hidden;
-	background-color: #fbd363;
-	background-image: url(//europe.wordcamp.org/2023/files/2023/01/latest_news_section_symbol.png);
-	background-repeat: no-repeat;
 	padding-top: 60px;
 	padding-bottom: 60px;
 
 	a.wp-block-read-more {
 		margin: 0;
 	}
-
-	@include media-max(md) {
-		background-position: bottom right;
-	}
-
 
 	ul {
 		max-width: 1680px !important;
@@ -30,11 +21,15 @@
 	}
 
 	.wp-block-post-title {
-		font-family: $Philosopher !important;
+		font-family: $Primary-font !important;
 		font-weight: $Bold !important;
-		color: $WCLA24-Red-100;
+		color: $WCLA24-DarkRed-100;
 		font-size: 2rem;
 		margin-top: 0;
+	}
+
+	.wp-block-post-date {
+		color: $WCLA24-DarkRed-100;
 	}
 
 	@include media-max(xxl) {
@@ -53,66 +48,11 @@
  	   		width: 90%!important;
 		}
 	}
-
-	
-}
-	
-// archive page | search page | Athens Guide page <3 
-.category-news,
-.search-results, 
-.page-id-8446 {
-	.latest-news {
-
-		background-image: url(//europe.wordcamp.org/2023/files/2023/01/latest-news-page-background-symbol.png);
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-position: center;
-		background-color: transparent;
-		margin-bottom: -25px;
-
-		.wp-block-post-date {
-			color: $WCLA24-Red-100;
-		}
-
-		.wp-block-post-title,
-		.wp-block-post-excerpt {
-			color: $WCLA24-DarkBlue-100;
-		}
-
-	}
-
 }
 
-.page-id-8446 { 
-	ul {max-width: 1200px !important;}
-}
-
-// homepage
-.home {
-	.latest-news {
-		background-color: #fbd363;
-		background-image: url(//europe.wordcamp.org/2023/files/2023/01/latest_news_section_symbol.png);
-		background-repeat: no-repeat;
-	}
-}
-
-//single post
+//single post - related posts section
 .single-post {
 	.latest-news {
-		background: $WCLA24-Yellow-40;
-
-		.wp-block-heading {
-			color: $WCLA24-DarkBlue-100 !important;
-			padding: 0 45px;
-		}
-
-		.wp-block-post-date {
-			color: $WCLA24-Red-100;
-		}
-
-		.wp-block-post-title,
-		.wp-block-post-excerpt {
-			color: $WCLA24-DarkBlue-100;
-		}
+		background: $WCLA24-LightGreen-40;
 	}
 }

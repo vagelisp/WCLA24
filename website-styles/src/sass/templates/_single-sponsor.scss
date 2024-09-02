@@ -1,18 +1,10 @@
 .single-wcb_sponsor {
-	
+
 	@include media-min(md) {
 
 		main {
 				padding: 30px;
 			}
-
-		.wp-site-blocks {
-			background: url(//europe.wordcamp.org/2023/files/2023/04/sponsors-page-background.png),
-				url(//europe.wordcamp.org/2023/files/2023/04/sponsors-page-background-2.png);
-			background-position: 0 20%, 100% 40%;
-			background-repeat: no-repeat;
-			background-size: 600px;
-		}
 	}
 
 	.wp-block-post-featured-image {
@@ -34,10 +26,10 @@
 	.single-sponsor-content-container {
 		h2,
 		h3 {
-			font-family: $Philosopher;
+			font-family: $Primary-font;
 			font-size: 2.5rem;
 			margin-bottom: -15px;
-			color: $WCLA24-DarkBlue-100;
+			color: $WCLA24-DarkRed-100;
 		}
 
 		.taxonomy-wcb_sponsor_level {
@@ -51,8 +43,8 @@
 			.wp-element-caption {
 				font-size: 1.3rem;
 				margin-top: 20px;
-				color: $WCLA24-DarkBlue-100;
-				font-family: $Mulish;
+				color: $WCLA24-DarkRed-100;
+				font-family: $Primary-font;
 			}
 
 			.staff-links {
@@ -81,7 +73,7 @@
 			li {
 				font-size: 1.3rem;
 				a {
-					color: $WCLA24-DarkBlue-100;
+					color: $WCLA24-DarkRed-100;
 				}
 			}
 		}

@@ -34,16 +34,13 @@
 	}
 }
 
-.top-logo {
-	img {
-		width: 180px;
-		position: absolute;
-		top: -50px;
-		z-index: 99;
-	}
-}
-
 label.grunion-radio-label,
 .grunion-checkbox-multiple-label {
 	font-weight: $Bold !important;
+}
+
+body {
+	&.admin-bar{
+		margin-top: var(--wp-admin--admin-bar--height);
+	}
 }

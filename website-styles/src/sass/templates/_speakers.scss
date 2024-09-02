@@ -39,7 +39,7 @@
 					text-decoration: none;
 				}
 
-				color: $WCLA24-Red-100 !important;
+				color: $WCLA24-DarkRed-100 !important;
 				font-weight: $Bold;
 			}
 		}
@@ -58,7 +58,7 @@
 		}
 
 		.wordcamp-speakers__sessions {
-			background-color: $WCLA24-Turquoise-40;
+			background-color: $WCLA24-DarkRed-40;
 			padding: 20px;
 			margin-top: 30px;
 			font-size: 1.2rem;
@@ -69,7 +69,7 @@
 			}
 
 			.wordcamp-speakers__session-link {
-				color: $WCLA24-DarkBlue-100 !important;
+				color: $WCLA24-DarkRed-100 !important;
 				font-weight: $Bold;
 				text-decoration: none !important;
 				font-size: 1.5rem;
@@ -82,7 +82,7 @@
 		}
 	}
 
-	
+
 
 	.wordcamp-post-list__post:is(:has(.wordcamp-speaker.wordcamp-speakers__post.slug-viola-gruner-2)) {
  		 display: none;

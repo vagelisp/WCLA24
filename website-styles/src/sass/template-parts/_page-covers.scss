@@ -11,60 +11,27 @@
 
 	.wp-block-post-title,
 	.wp-block-heading {
-		color: $WCLA24-DarkBlue-100 !important;
+		color: $WCLA24-TotalWhite-100 !important;
 	}
 
-	&.blue-cover {
-		background-color: $WCLA24-Blue-60;
-		background-image: url(//europe.wordcamp.org/2023/files/2023/01/call-for-cover-symbol.png);
+	&.dark-red-cover {
+		background-color: $WCLA24-DarkRed-100;
 	}
 
 	&.pink-cover {
-		background-color: $WCLA24-Red-60;
-		background-image: url(//europe.wordcamp.org/2023/files/2023/01/WCEU2023-OrganisersPage-Cover.png);
-		background-size: 600px;
+		background-color: $WCLA24-Pink-100;
 	}
 
-	&.turquoise-cover {
-		background-color: $WCLA24-Turquoise-60;
-		background-image: url(//europe.wordcamp.org/2023/files/2023/01/contact-page-cover-symbol.png);
-		background-size: 900px;
-		background-position: right 180px;
+	&.orange-cover {
+		background-color: $WCLA24-Orange-100;
 	}
 
-	&.yellow-cover {
-		background-color: $WCLA24-Yellow-80;
-		background-image: url(//europe.wordcamp.org/2023/files/2023/01/latest-news-page-cover-symbol.png);
+	&.light-green-cover {
+		background-color: $WCLA24-LightGreen-100;
 	}
-}
 
-// calls template header bg override
-.page-template-wp-custom-template-calls-template,
-.page-id-3694 {
-	header {
-		.wp-block-group.has-background {
-			background-color: $WCLA24-Blue-60 !important;
-		}
-	}
-}
-
-// organisers template header bg override | sponsors page | single sponsor page
-.page-template-wp-custom-template-organisers-template,
-.page-template-wp-custom-template-sponsors,
-.single-wcb_sponsor {
-	header {
-		.wp-block-group.has-background {
-			background-color: $WCLA24-Red-60 !important;
-		}
-	}
-}
-
-// organisers template header bg override
-.page-template-wp-custom-template-contact-page-template {
-	header {
-		.wp-block-group.has-background {
-			background-color: $WCLA24-Turquoise-60 !important;
-		}
+	&.beige-cover {
+		background-color: $WCLA24-Beige-100;
 	}
 }
 
@@ -73,7 +40,7 @@
 .search-results {
 	header {
 		.wp-block-group.has-background {
-			background-color: $WCLA24-Yellow-80 !important;
+			background-color: $WCLA24-DarkRed-100 !important;
 		}
 	}
 }
@@ -84,7 +51,7 @@
 .page-template-wp-custom-template-schedule {
 	header {
 		.wp-block-group.has-background {
-			background-color: $WCLA24-Red-60 !important;
+			background-color: $WCLA24-DarkRed-100 !important;
 		}
 	}
 	.page-cover {
@@ -100,7 +67,7 @@
 .single-wcb_session {
 	header {
 		.wp-block-group.has-background {
-			background-color: $WCLA24-Red-60 !important;
+			background-color: $WCLA24-DarkRed-100 !important;
 		}
 	}
 	.page-cover {
