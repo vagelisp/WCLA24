@@ -35,6 +35,14 @@
 	margin-top: 0 !important;
 }
 
+.wp-block-columns.mobile-reverse-order {
+	&.wp-container-core-columns-is-layout-2 {
+		& > .wp-block-column:first-child {
+			order: 2;
+		}
+	}
+}
+
 @include media-max(xxl) {
 	.mw-90 {
 		width: 90% !important;
