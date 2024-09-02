@@ -49,5 +49,27 @@
 		background-repeat: repeat-x;
 		padding: 0 !important;
 	}
+
+	.wc-community-home {
+		background-color: $WCLA24-Pink-40;
+		padding-top: 6.25rem;
+		padding-bottom: 6.25rem;
+
+		h2 {
+			font-size: 3.125rem;
+		}
+
+		h3 {
+			color: $WCLA24-TotalWhite-100;
+			font-size: 1.475rem;
+			line-height: 1.25;
+		}
+
+		.wp-block-columns {
+			.wp-block-column {
+				background-color: $WCLA24-DarkRed-100;
+			}
+		}
+	}
 }
 

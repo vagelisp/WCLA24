@@ -69,5 +69,9 @@ body {
 			display: none;
 		}
 	}
+
+	& > .wp-site-blocks {
+		background-color: $WCLA24-Beige-20;
+	}
 }
 
