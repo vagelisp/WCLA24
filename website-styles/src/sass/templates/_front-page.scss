@@ -11,12 +11,21 @@
 		.wp-block-columns {
 			padding-top: 3.75rem;
 			padding-bottom: 10rem;
+
+			@include media-max(md) {
+				padding-top: 1.85rem;
+				padding-bottom: 5rem;
+			}
 		}
 
 		h1 {
 			color: $WCLA24-TotalWhite-100;
 			font-size: 70px;
 			font-weight: $ExtraBold;
+
+			@include media-max(md) {
+				font-size: 48px;
+			}
 		}
 
 		p {
@@ -25,10 +34,20 @@
 			font-weight: $Bold;
 		}
 
-		.wp-block-button .wp-block-button__link {
-			font-size: 2.125rem;
-			padding: 25px 70px;
+		@include media-min(md) {
+			.wp-block-button .wp-block-button__link {
+				font-size: 2.125rem;
+				padding: 25px 70px;
+			}
 		}
+
+	}
+
+	.section-divider {
+		min-height: 192px;
+		background-size: auto 100% !important;
+		background-repeat: repeat-x;
+		padding: 0 !important;
 	}
 }
 

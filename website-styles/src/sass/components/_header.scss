@@ -7,6 +7,11 @@ header {
 		background-color: $WCLA24-DarkRed-100;
 		padding-top: 50px;
 		padding-bottom: 50px;
+
+		@include media-max(md) {
+			padding-top: 30px;
+			padding-bottom: 30px;
+		}
 	}
 
 	.top-logo {
