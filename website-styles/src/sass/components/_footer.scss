@@ -23,6 +23,19 @@ footer {
 		text-decoration: none;
 	}
 
+	.foot-heading {
+		font-size: 24px !important;
+		font-weight: $ExtraBold;
+	}
+
+	.foot-text {
+		font-size: 22px !important;
+		font-weight: $SemiBold;
+		li:not(.wp-block-navigation-item__content):not(.wp-block-navigation-item) {
+			margin-bottom: 10px;
+		}
+	}
+
 	.wp-block-navigation .wp-block-navigation-item__label {
 		font-size: "1.2rem";
 		color: #fff;
