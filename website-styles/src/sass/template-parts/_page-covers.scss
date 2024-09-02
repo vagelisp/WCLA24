@@ -1,17 +1,28 @@
 .page-cover {
+	min-height: 450px !important;
+	padding-top: 0 !important;
+	padding-bottom: 200px !important;
 	margin-top: 0;
-	background-repeat: no-repeat;
-	background-size: contain;
-	background-position: 80% 50%;
+	background-image: url(//larissa.wordcamp.org/2024/files/2024/09/Two-Lines.png);
+	background-size: auto 192px;
+	background-position: left bottom;
+	background-repeat: repeat-x;
 
 	@include media-max(md) {
-		background-position: bottom right;
-		min-height: 200px !important;
+		min-height: 350px !important;
+		padding-bottom: 100px !important;
+		background-size: auto 100px;
 	}
 
 	.wp-block-post-title,
 	.wp-block-heading {
 		color: $WCLA24-TotalWhite-100 !important;
+		font-weight: $ExtraBold;
+		font-size: 3.125rem;
+
+		@include media-max(md) {
+			font-size: 2.25rem;
+		}
 	}
 
 	&.dark-red-cover {
