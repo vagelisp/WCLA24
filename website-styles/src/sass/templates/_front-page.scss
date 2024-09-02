@@ -9,24 +9,6 @@
 		overflow: hidden;
 		margin-top: -1.5rem;
 
-		&::after {
-			content: "";
-			display: block;
-			position: absolute;
-			background-image: url(//europe.wordcamp.org/2023/files/2022/12/homepage-hero-section-symbol.png);
-			background-position: top right;
-			background-repeat: no-repeat;
-			z-index: 10;
-			width: 600px;
-			height: 600px;
-			bottom: -100px;
-			right: 0;
-
-			@include media-max(sm) {
-				display: none;
-			}
-		}
-
 		h1,
 		p {
 			color: $WCLA24-TotalWhite-100;
