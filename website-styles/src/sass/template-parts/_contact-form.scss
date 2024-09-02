@@ -1,25 +1,25 @@
 #contact-form-17 {
-	font-family: $Mulish !important;
+	font-family: $Primary-font !important;
 
 	.wp-block-jetpack-contact-form {
 		justify-content: center;
 	}
 
 	.grunion-field-label {
-		color: $WCLA24-DarkBlue-100;
+		color: $WCLA24-DarkRed-100;
 	}
 
 	input[type="text"] {
-		border: 1px solid $WCLA24-DarkBlue-100;
+		border: 1px solid $WCLA24-DarkRed-100;
 	}
 
 	//copied from tickets page
 	button {
-		background-color: $WCLA24-Red-100 !important;
+		background-color: $WCLA24-DarkRed-100 !important;
 		border: none;
 		border-radius: 2rem;
 		color: $WCLA24-TotalWhite-100;
-		font-family: $Mulish;
+		font-family: $Primary-font;
 		font-size: 1.2rem;
 		font-weight: $ExtraBold;
 		display: block;
@@ -29,19 +29,7 @@
 		width: 100%;
 
 		&:hover {
-			background-color: $WCLA24-Red-80;
-		}
-	}
-}
-
-.page-id-17 {
-	main {
-		background: url(//europe.wordcamp.org/2023/files/2023/01/contact-page-yellow-symbol.png);
-		background-repeat: no-repeat;
-		background-size: contain;
-
-		@include media-max(md) {
-			background-position: bottom;
+			background-color: $WCLA24-DarkRed-80;
 		}
 	}
 }

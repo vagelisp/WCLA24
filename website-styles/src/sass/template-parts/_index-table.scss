@@ -1,15 +1,12 @@
 .index-table {
-	background-color: $WCLA24-Yellow-80 !important;
-	background: url(//europe.wordcamp.org/2023/files/2023/01/bird-symbol.png);
-	background-position: bottom right;
-	background-repeat: no-repeat;
+	background-color: $WCLA24-Beige-80 !important;
 	padding: 60px !important;
 	font-weight: $Bold;
 	list-style: inside;
 
 	li {
 		a {
-			color: $WCLA24-DarkBlue-100;
+			color: $WCLA24-DarkRed-100;
 		}
 	}
 }
