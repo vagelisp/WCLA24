@@ -89,4 +89,65 @@ footer {
 			color: #fff !important;
 		}
 	}
+
+		.newsletter-section {
+			.wp-block-heading{
+				@include media-max(sm) {
+					text-align: center;
+				}
+			}
+			
+			.wp-block-jetpack-contact-form {
+				padding: 10px 0 0 !important;			
+
+				.wp-block-group  {
+					@include media-max(sm) {
+						flex-direction: column;
+					}
+				}
+				
+				.grunion-field-wrap {
+					
+					padding: 0;
+					label {
+						display: none;
+					}
+				}
+
+				.wp-container-core-group-is-layout-12 {
+					gap: 0;
+					.wp-block-jetpack-button {
+						padding: 0;
+					}
+				}
+
+				.wp-block-button__link {
+					padding: 13px 20px;
+					background-color: $WCLA24-DarkRed-100;
+					@include media-max(sm) {
+						padding: 13px 48px;
+    					margin-top: 10px;
+					}
+				}
+
+				.grunion-field-email-wrap.grunion-field-wrap {
+					@include media-min(md) {
+						flex: 2;
+					}
+				}
+
+				input#gblock-template-part-twentytwentytwonewsletter-email {
+					border: 4px solid $WCLA24-DarkRed-100 !important;
+					font-size: 1rem;
+					padding: 15px;
+				}
+				.grunion-field-wrap{
+					@include media-max(sm) {
+						padding: 0 !important;
+						
+					}
+				}
+			}
+		
+		}
 }
