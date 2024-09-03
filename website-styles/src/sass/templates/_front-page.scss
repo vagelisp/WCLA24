@@ -65,6 +65,14 @@
 			line-height: 1.25;
 		}
 
+		a {
+			color: $WCLA24-TotalWhite-100;
+
+			&:not(:hover) {
+				text-decoration: none;
+			}
+		}
+
 		.wp-block-columns {
 			.wp-block-column {
 				background-color: $WCLA24-DarkRed-100;
