@@ -72,7 +72,7 @@ body {
 		}
 	}
 
-	& > .wp-site-blocks {
+	&:not(.home) > .wp-site-blocks {
 		background-color: $WCLA24-Beige-20;
 	}
 }

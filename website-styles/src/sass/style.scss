@@ -19,7 +19,7 @@
 # Base
 --------------------------------------------------------------*/
 @import "base/typography";
-@import "base/_buttons";
+@import "base/buttons";
 
 /*--------------------------------------------------------------
 # Components
@@ -55,7 +55,7 @@
 # Template Parts
 --------------------------------------------------------------*/
 @import "template-parts/page-covers";
-@import "template-parts/latest-news";
+@import "template-parts/posts-grid";
 //@import "template-parts/wc-community";
 @import "template-parts/contact-form";
 @import "template-parts/index-table";
