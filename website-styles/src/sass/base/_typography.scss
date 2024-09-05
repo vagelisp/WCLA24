@@ -11,6 +11,7 @@ h1,
 
 /* 3.1.2 Heading 2 */
 h2,
+h2.wp-block-post-title,
 .WCEU2023-HeadingTwo {
 	font-family: $Primary-font;
 	font-weight: $Bold;
@@ -54,7 +55,7 @@ h6,
 .WCEU2023-BlockText,
 p {
 	font-family: $Primary-font;
-	font-weight: $SemiBold;
+	font-weight: $Regular;
 	color: $WCLA24-Black-100;
 }
 

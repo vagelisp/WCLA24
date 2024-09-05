@@ -1,0 +1,18 @@
+// default styling for social media links
+.wp-block-social-links {
+	font-size: 1.75rem;
+	gap: 2.1875rem;
+
+	@include media-max(md) {
+		gap: 1.25rem;
+	}
+
+	.wp-social-link {
+		color: $WCLA24-TotalWhite-100 !important;
+		background-color: $WCLA24-Orange-100 !important;
+
+		a {
+			padding: 0.6875rem !important;
+		}
+	}
+}
