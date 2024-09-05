@@ -2,6 +2,7 @@
 	========================================================================== */
 
 footer {
+	font-family: $Primary-font;
 	margin-bottom: -25px !important;
 
 	.is-layout-flex {
@@ -37,8 +38,7 @@ footer {
 	}
 
 	.wp-block-navigation .wp-block-navigation-item__label {
-		font-size: "1.2rem";
-		color: #fff;
+		font-size: 1.2rem;
 	}
 
 	.wp-block-navigation__container {
@@ -48,17 +48,21 @@ footer {
 		}
 
 		span {
-			font-size: "1.2rem";
-			color: #fff;
+			font-size: 1.2rem;
 		}
 	}
 
 	//social-bar
 	.social-bar {
-		background-color: $WCLA24-LightGreen-80!important;
+		background-color: $WCLA24-LightGreen-80 !important;
 
 		.wp-block-social-links {
 			justify-content: space-evenly;
+			font-size: 2.8125rem;
+
+			a {
+				padding: 1.5rem !important;
+			}
 		}
 	}
 
@@ -109,18 +113,18 @@ footer {
 					text-align: center;
 				}
 			}
-			
+
 			.wp-block-jetpack-contact-form {
-				padding: 10px 0 0 !important;			
+				padding: 10px 0 0 !important;
 
 				.wp-block-group  {
 					@include media-max(sm) {
 						flex-direction: column;
 					}
 				}
-				
+
 				.grunion-field-wrap {
-					
+
 					padding: 0;
 					label {
 						display: none;
@@ -158,10 +162,10 @@ footer {
 				.grunion-field-wrap{
 					@include media-max(sm) {
 						padding: 0 !important;
-						
+
 					}
 				}
 			}
-		
+
 		}
 }
