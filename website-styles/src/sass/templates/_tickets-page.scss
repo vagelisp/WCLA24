@@ -170,6 +170,12 @@
 					&[type="email"] {
 						width: 100%;
 					}
+
+				    &[type="radio"],
+				    &[type="checkbox"] {
+					  width: 1rem;
+					  height: 1rem;
+					}
 				}
 
 				textarea {
