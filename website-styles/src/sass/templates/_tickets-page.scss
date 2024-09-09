@@ -285,6 +285,8 @@
 			}
 
 			.tix-payment-method {
+				display: flex;
+				flex-direction: column;
 				.tix-payment-tab {
 					border: none;
 					padding: 0;
