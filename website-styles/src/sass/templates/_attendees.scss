@@ -1,115 +1,40 @@
-.page-id-14 {
+#tix-attendees {
+  a {
+	color: $WCLA24-Orange-100;
+  }
 
-	@include media-min(md) {
-		.wp-site-blocks {
-			background:
-				url(//europe.wordcamp.org/2023/files/2023/01/WCEU2023-OrganisersPage.png),
-				url(//europe.wordcamp.org/2023/files/2023/01/WCEU2023-OrganisersPage2.png),
-				url(//europe.wordcamp.org/2023/files/2023/01/WCEU2023-OrganisersPage.png),
-				url(//europe.wordcamp.org/2023/files/2023/01/WCEU2023-OrganisersPage2.png),
-				url(//europe.wordcamp.org/2023/files/2023/01/WCEU2023-OrganisersPage.png);
-			background-repeat: no-repeat;
-			background-size: 100%;
-			background-position:
-				-700px 1%,
-				700px 25%,
-				-700px 50%,
-				700px 75%,
-				-700px 85%;
-		}
+  .tix-attendee-list {
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-wrap: wrap;
+
+	li {
+	  float: unset;
+	  text-align: center;
+
+	  @for $columns from 1 through 5 {
+		flex: 0 0 calc(100% / $columns);
+	  }
+
+	  @include media-max(sm) {
+		flex-basis: 100%;
+	  }
 	}
 
-	#tix-attendees {
-		max-width: 1440px !important;
-
-		.tix-attendee-list {
-			padding-left: 0;
-		}
-
-		a {
-			color: $WCLA24-DarkRed-100;
-		}
-
-		li {
-			overflow: hidden;
-			height: auto;
-			min-height: 350px;
-			text-align: center;
-
-			@include media-max(sm) {
-				width: 100%;
-			}
-
-			.avatar {
-				float: none;
-				width: initial;
-				height: initial;
-				border-radius: 100%;
-				border: 4px solid;
-				border-color: $WCLA24-DarkRed-100;
-			}
-
-			.tix-field {
-				margin-left: 0;
-				font-size: unset;
-			}
-
-			.tix-attendee-name {
-				font-family: $Primary-font;
-				color: $WCLA24-DarkRed-100;
-				font-weight: $Bold;
-				font-size: 1.6rem;
-			}
-
-			a:not(first-child) {
-				width: 10% !important;
-				float: left;
-				margin-top: 10px;
-				visibility: hidden;
-				margin-left: 17% !important;
-			}
-		}
-
-		.tix-attendee-twitter {
-				width: 20%;
-				float: left;
-				margin-top: 10px;
-				visibility: hidden;
-
-			&::before {
-				content: "";
-				width: 30px;
-				height: 30px;
-				display: inline-block;
-				visibility: visible;
-				background: url(//europe.wordcamp.org/2023/files/2023/02/Twitter.png) no-repeat;
-				background-size: contain;
-			}
-		}
-
-		.tix-attendee-url {
-			width: 20%;
-			float: left;
-			margin-top: 10px;
-			visibility: hidden;
-
-			&::before {
-				content: "";
-				width: 30px;
-				height: 30px;
-				display: inline-block;
-				visibility: visible;
-				background: url(//europe.wordcamp.org/2023/files/2023/02/Website.png) no-repeat;
-				background-size: contain;
-			}
-
-		}
-
-		a[href^="https://profiles.wordpress.org"] {
-				&::before {
-					background: url(//europe.wordcamp.org/2023/files/2023/02/Wordpress.png) no-repeat;
-					background-size: contain;
-				}
-			}
+	.avatar {
+	  float: unset;
+	  width: initial;
+	  height: initial;
+	  border-radius: 100%;
+	  border: 4px solid $WCLA24-DarkRed-100;
 	}
+
+	.tix-attendee-name {
+	  font-family: $Primary-font;
+	  color: $WCLA24-DarkRed-100;
+	  font-weight: $Bold;
+	  font-size: 1rem;
+	}
+  }
 }
