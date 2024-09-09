@@ -8,7 +8,7 @@
 	margin: 0;
 	display: grid;
 	gap: 2rem;
-	grid-template: repeat(3, 1fr) / auto;
+	grid-template-columns: repeat(3, 1fr);
 
 	@for $columns from 1 through 5 {
 	  &.tix-columns-#{$columns} {
