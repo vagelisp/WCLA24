@@ -1,35 +1,29 @@
-#contact-form-17 {
-	font-family: $Primary-font !important;
+// applies to all forms, not just "contact-us" form
+form.contact-form {
+	font-family: $Primary-font;
+	padding-bottom: 40px;
+	margin-top: 40px;
+	--wp--style--block-gap: 2.5rem;
+	--jetpack--contact-form--border-color: #{$WCLA24-DarkRed-100};
+	--jetpack--contact-form--border-size: 2px;
 
-	.wp-block-jetpack-contact-form {
-		justify-content: center;
+	input[type=text],
+	input[type=email],
+	input[type=tel],
+	input[type=url],
+	textarea {
+		border: 2px solid $WCLA24-DarkRed-100;
+		padding: 10px;
 	}
 
 	.grunion-field-label {
 		color: $WCLA24-DarkRed-100;
+		font-size: 22px;
+		font-weight: 600;
+		margin-bottom: 0.6rem;
 	}
 
-	input[type="text"] {
-		border: 1px solid $WCLA24-DarkRed-100;
-	}
-
-	//copied from tickets page
-	button {
-		background-color: $WCLA24-DarkRed-100 !important;
-		border: none;
-		border-radius: 2rem;
-		color: $WCLA24-TotalWhite-100;
-		font-family: $Primary-font;
-		font-size: 1.2rem;
-		font-weight: $ExtraBold;
-		display: block;
-		line-height: 1.5;
-		padding: 1rem;
-		transition: background-color 0.3s ease;
+	button[type="submit"] {
 		width: 100%;
-
-		&:hover {
-			background-color: $WCLA24-DarkRed-80;
-		}
 	}
 }
