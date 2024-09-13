@@ -15,5 +15,9 @@
     "packages-update": "wp-scripts packages-update",
     "start": "wp-scripts start ./src/wcla2024.js"
   },
-  "main": "index.js"
+  "main": "index.js",
+  "dependencies": {
+    "ajv": "^8.17.1",
+    "ajv-keywords": "^5.1.0"
+  }
 }
