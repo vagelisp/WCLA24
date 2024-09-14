@@ -7,7 +7,7 @@
 	padding: 0;
 	margin: 0;
 	display: grid;
-	gap: 4.5rem;
+	gap: 7.5rem;
 	grid-template-columns: repeat(3, 1fr);
 
 	@for $columns from 1 through 5 {
@@ -30,8 +30,8 @@
 
 	.avatar {
 	  float: unset;
-	  width: initial;
-	  height: initial;
+	  width: 120px;
+	  height: 120px;
 	  border-radius: 100%;
 	  margin-bottom: 25px;
 	}
@@ -42,8 +42,9 @@
 	  &.tix-attendee-name {
 		font-family: $Primary-font;
 		color: $WCLA24-DarkRed-100;
-		font-weight: $ExtraBold;
+		font-weight: $Bold;
 		font-size: 1.625rem;
+	  	margin-bottom: 25px;
 	  }
 	}
 
