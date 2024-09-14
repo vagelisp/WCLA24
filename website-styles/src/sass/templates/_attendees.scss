@@ -7,7 +7,7 @@
 	padding: 0;
 	margin: 0;
 	display: grid;
-	gap: 2rem;
+	gap: 4.5rem;
 	grid-template-columns: repeat(3, 1fr);
 
 	@for $columns from 1 through 5 {
@@ -33,18 +33,42 @@
 	  width: initial;
 	  height: initial;
 	  border-radius: 100%;
-	  border: 4px solid $WCLA24-DarkRed-100;
+	  margin-bottom: 25px;
 	}
 
 	.tix-field {
 	  margin: 0;
+
+	  &.tix-attendee-name {
+		font-family: $Primary-font;
+		color: $WCLA24-DarkRed-100;
+		font-weight: $ExtraBold;
+		font-size: 1.625rem;
+	  }
 	}
 
-	.tix-attendee-name {
-	  font-family: $Primary-font;
-	  color: $WCLA24-DarkRed-100;
-	  font-weight: $Bold;
-	  font-size: 1rem;
+	a.tix-field {
+	  display: inline-block;
+	  margin: 0 35px;
+	  font-size: 0;
+
+	  &::before {
+		content: "";
+		display: inline-block;
+		height: 50px;
+		width: 50px;
+		border-radius: 100%;
+		background-repeat: no-repeat;
+		background-size: contain;
+	  }
+
+	  &.tix-attendee-twitter {
+		background-image: url('https://larissa.wordcamp.org/2024/files/2024/09/Twitter.png');
+	  }
+
+	  &.tix-attendee-url {
+		background-image: url('https://larissa.wordcamp.org/2024/files/2024/09/Link.png');
+	  }
 	}
   }
 }
