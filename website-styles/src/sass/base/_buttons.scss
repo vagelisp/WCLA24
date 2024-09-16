@@ -1,5 +1,7 @@
 // primary button (fill type)
 .wp-block-button {
+	font-family: $Primary-font;
+
 	.wp-block-button__link {
 		background-color: $WCLA24-Orange-100;
 		color: $WCLA24-TotalWhite-100;
