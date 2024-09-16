@@ -1,23 +1,29 @@
 .single-post {
-	//header bg override
-	header {
-		.wp-block-group.has-background {
-			background-color: $WCLA24-DarkRed-100 !important;
-		}
+
+	.wp-block-post-featured-image {
+		margin-bottom: 2.1875rem;
 	}
 
-	main {
+	.related-posts {
+		background-color: $WCLA24-LightGreen-40;
+		padding-top: 9rem;
+		padding-bottom: 9rem;
+
+		@include media-max(md) {
+			padding-top: 6rem;
+			padding-bottom: 6rem;
+		}
+
+		.wp-block-post-template.is-layout-grid {
+			gap: 35px;
+		}
+
 		.wp-block-heading {
-			color: $WCLA24-DarkRed-100 !important;
+			font-weight: $ExtraBold;
+		}
+
+		.wp-block-query {
+			margin-top: 3.75rem;
 		}
 	}
-
-	footer {
-		margin-top: -25px;
-		//hide footer subscribe
-		.footer-subscribe {
-			display: none;
-		}
-	}
-
 }
