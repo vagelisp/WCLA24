@@ -4,7 +4,20 @@
   display: grid;
   align-items: center;
   grid-template-columns: 1fr;
-  gap: 3rem;
+  gap: 1rem;
+
+  @include media-min(sm) {
+	gap: 2rem;
+  }
+
+  @include media-min(md) {
+	gap: 3rem;
+  }
+
+  a {
+	display: block;
+	text-align: center;
+  }
 
   img {
 	max-width: 100%;
