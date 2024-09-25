@@ -42,10 +42,6 @@
 	@include media-min(md) {
 	  grid-template-columns: repeat(3, 1fr);
 	}
-
-	@include media-min(lg) {
-	  grid-template-columns: repeat(4, 1fr);
-	}
   }
 
   &.wordcamp-sponsors-digital {
@@ -55,10 +51,6 @@
 
 	@include media-min(md) {
 	  grid-template-columns: repeat(4, 1fr);
-	}
-
-	@include media-min(lg) {
-	  grid-template-columns: repeat(6, 1fr);
 	}
   }
 }
