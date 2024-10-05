@@ -17,10 +17,18 @@ header {
 	.top-logo {
 		img {
 			width: 247px;
+
+			@media (min-width: 1281px) and (max-width: 1450px) {
+			  	width: 200px;
+			}
 		}
 	}
 
 	.wp-block-navigation {
+		@media (min-width: 1281px) and (max-width: 1450px) {
+		  	column-gap: 1rem;
+		}
+
 		ul,
 		.wp-block-navigation-item__content {
 			font-family: $Primary-font;
