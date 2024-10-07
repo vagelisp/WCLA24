@@ -20,12 +20,19 @@
   }
 
   .taxonomy-wcb_session_category.wp-block-post-terms {
+	margin-top: 0.5rem;
+
 	&::before,
 	a {
 	  font-size: 1rem;
 	  color: $WCLA24-DarkRed-100;
 	  font-family: $Primary-font;
 	  font-weight: bold;
+	}
+
+	a {
+	  text-decoration: none;
+	  pointer-events: none;
 	}
 
 	&::before {
