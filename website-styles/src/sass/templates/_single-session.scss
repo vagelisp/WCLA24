@@ -1,4 +1,8 @@
 .single-wcb_session {
+  .wp-block-columns {
+	gap: 5rem;
+  }
+
   .wp-block-wordcamp-session-speakers {
 	&__byline {
 	  display: none;
