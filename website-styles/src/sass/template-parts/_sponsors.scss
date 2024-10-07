@@ -1,7 +1,5 @@
-.wordcamp-sponsors {
-  list-style-type: none;
+.wordcamp-sponsors.wordcamp-post-list.has-layout-grid {
   padding: 0;
-  display: grid;
   align-items: center;
   grid-template-columns: 1fr;
   gap: 1rem;
@@ -37,7 +35,7 @@
   }
 
   &.wordcamp-sponsors-business {
-	@include media-min(sm) {
+	@include media-min(xs) {
 	  grid-template-columns: repeat(2, 1fr);
 	}
 
@@ -47,7 +45,7 @@
   }
 
   &.wordcamp-sponsors-digital {
-	@include media-min(sm) {
+	@include media-min(xs) {
 	  grid-template-columns: repeat(2, 1fr);
 	}
 
