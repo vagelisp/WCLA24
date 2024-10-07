@@ -35,10 +35,6 @@
 @import "templates/front-page";
 @import "templates/tickets-page";
 @import "templates/single-post";
-@import "templates/call-for-speakers";
-@import "templates/call-for-volunteers";
-@import "templates/call-for-photographers";
-@import "templates/organisers";
 @import "templates/attendees";
 @import "templates/speakers";
 @import "templates/single-speaker";
@@ -56,7 +52,6 @@
 --------------------------------------------------------------*/
 @import "template-parts/page-covers";
 @import "template-parts/posts-grid";
-//@import "template-parts/wc-community";
 @import "template-parts/contact-form";
 @import "template-parts/index-table";
 @import "template-parts/sponsors";
