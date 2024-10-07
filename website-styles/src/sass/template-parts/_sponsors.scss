@@ -1,8 +1,9 @@
 .wordcamp-sponsors.wordcamp-post-list.has-layout-grid {
-  padding: 0;
+  display: grid;
   align-items: center;
   grid-template-columns: 1fr;
   gap: 1rem;
+  padding: 0;
 
   @include media-min(sm) {
 	gap: 2rem;
