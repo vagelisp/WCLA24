@@ -1,101 +1,36 @@
-
-
 .single-wcb_session {
-
-	h2.session-speakers {
-		display: none;
+  .wp-block-wordcamp-session-speakers {
+	&__byline {
+	  display: none;
 	}
 
-	li.wcb_session.type-wcb_session {
-		background-color: #fff;
-		border: 8px solid #1d5fb4;
-		min-height: 300px;
-
-		h4 {
-			padding: 20px 30px 30px 30px;
-			margin: 0;
-
-			a {
-				font-size: 23px;
-				font-family: $Primary-font;
-				font-weight: $Bold;
-				text-decoration: none;
-				color: #122b48;
-			}
-		}
-	}
-
-	.wp-block-wordcamp-session-speakers__name:before,
-	.wp-block-wordcamp-session-speakers__name a,
-	.taxonomy-wcb_session_category.wp-block-post-terms:before,
-	.taxonomy-wcb_session_category.wp-block-post-terms a {
-		font-size: 1.4rem;
+	&__name {
+	  &::before,
+	  a {
+		font-size: 1rem;
 		color: $WCLA24-DarkRed-100;
-		text-decoration: none;
 		font-family: $Primary-font;
 		font-weight: bold;
+	  }
+
+	  &::before {
+		content: 'Speaker: ';
+	  }
+	}
+  }
+
+  .taxonomy-wcb_session_category.wp-block-post-terms {
+	&::before,
+	a {
+	  font-size: 1rem;
+	  color: $WCLA24-DarkRed-100;
+	  font-family: $Primary-font;
+	  font-weight: bold;
 	}
 
-
-	.wp-block-wordcamp-session-speakers__name {
-		&:before {
-			content: 'Speaker: ';
-		}
-
-		&:not(:first-child):before {
-			display: none;
-		}
+	&::before {
+		content: '#' / 'Category';
 	}
-
-	.taxonomy-wcb_session_category.wp-block-post-terms:before {
-		content: 'Category: ';
-	}
-
+  }
 }
-
-	.wcb_session_category-panel .wp-block-wordcamp-session-speakers__name:before {
-		content: 'Speakers: ';
-	}
-
-	.single-wcb_session ul#session-speaker-names{
-		display: none;
-	}
-
-	.session-categories-links{
-		display: none;
-	}
-
-	p.wp-block-post-author__name a{
-		color: #cd3c5a;
-		font-family: Mulish, sans-serif;
-		font-size: 20px;
-		font-weight: 700;
-		text-decoration: none;
-	}
-
-	.taxonomy-wcb_session_category.related-workshop{
-		padding: 20px 30px 10px 30px;
-	}
-
-	.taxonomy-wcb_session_category a{
-		color: #cd3c5a;
-		font-family: Mulish, sans-serif;
-		font-size: 20px;
-		font-weight: 700;
-		text-decoration: none;
-	}
-
-	// Media Queries
-
-	@media screen and (min-width: 995px) {
-		li.wcb_session.type-wcb_session {
-			width: 25% !important;
-	  }
-	}
-
-	@media screen and (max-width: 992px) {
-		li.wcb_session.type-wcb_session {
-			width: 100% !important;
-	  }
-	}
 
