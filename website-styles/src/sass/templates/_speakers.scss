@@ -31,10 +31,20 @@
 
 		li {
 		  p {
-			font-size: 1.75rem;
+			font-size: 1.25rem;
 			margin: 0;
 
+			a {
+			  color: $WCLA24-DarkRed-100;
+			  text-decoration: none;
+
+			  &:hover {
+				text-decoration: underline;
+			  }
+			}
+
 			.wp-block-wordcamp-speaker-sessions__session-info {
+			  font-size: 1rem;
 			  margin-top: 1.125rem;
 			}
 		  }
