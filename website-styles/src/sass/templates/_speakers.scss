@@ -1,90 +1,45 @@
-.page-template-wp-custom-template-speakers {
+.page-slug-omilites {
+  .wp-block-post-template {
+	.wp-block-post.type-wcb_speaker {
+	  margin-bottom: 3.5rem;
 
-	@include media-min(md) {
-		.wp-site-blocks {
-			background: url(//europe.wordcamp.org/2023/files/2023/02/all-speakers-page-vector.png);
-			background-repeat: no-repeat;
-			background-size: 600px;
-			background-position: -200px 35%;
+	  .wp-block-columns {
+		gap: 4.5rem;
+	  }
+
+	  .wp-block-post-title {
+		margin-bottom: 1.5rem;
+
+		a {
+		  font-size: 2.5rem;
+		  color: $WCLA24-DarkRed-100;
+		  text-decoration: none;
+
+		  &:hover {
+			text-decoration: underline;
+		  }
 		}
+	  }
+
+	  .wp-block-post-excerpt {
+		margin-bottom: 1.5rem;
+	  }
+
+	  .wp-block-wordcamp-speaker-sessions {
+		background-color: $WCLA24-Pink-60;
+		padding: 3.125rem;
+
+		li {
+		  p {
+			font-size: 1.75rem;
+			margin: 0;
+
+			.wp-block-wordcamp-speaker-sessions__session-info {
+			  margin-top: 1.125rem;
+			}
+		  }
+		}
+	  }
 	}
-
-	main {
-		overflow-x: hidden;
-
-		.wp-block-group {
-			max-width: 1680px !important;
-			margin-left: auto !important;
-			margin-right: auto !important;
-			margin-bottom: 40px;
-		}
-	}
-
-		@include media-min(md) {
-			.wordcamp-post-list.has-layout-grid {
-				grid-column-gap: 3em;
-			}
-		}
-	// .wordcamp-speakers {
-	// 	padding: 0;
-	// }
-
-	.wordcamp-speaker {
-		.wordcamp-speakers__title {
-			a {
-
-				color: $WCLA24-DarkRed-100 !important;
-				font-weight: $Bold;
-
-				@include media-min(md) {
-					text-align: left !important;
-					font-size: 2.2rem;
-					text-decoration: none;
-				}
-			}
-		}
-
-		.wordcamp-image__avatar-container {
-			img {
-				border: 10px solid #1e5fb4;
-				border-radius: 100%;
-				width: 300px !important;
-				height: 300px !important;
-				@include media-max(md) {
-					width: 250px !important;
-					height: 250px !important;
-				}
-			}
-		}
-
-		.wordcamp-speakers__sessions {
-			background-color: $WCLA24-DarkRed-40;
-			padding: 20px;
-			margin-top: 30px;
-			font-size: 1.2rem;
-
-			.wordcamp-speakers__sessions-heading {
-				margin: 0;
-				font-size: 1.2rem;
-			}
-
-			.wordcamp-speakers__session-link {
-				color: $WCLA24-DarkRed-100 !important;
-				font-weight: $Bold;
-				text-decoration: none !important;
-				font-size: 1.5rem;
-			}
-
-			.wordcamp-speakers__session-info {
-				margin-top: 5px;
-				font-size: 1rem !important;
-			}
-		}
-	}
-
-
-
-	.wordcamp-post-list__post:is(:has(.wordcamp-speaker.wordcamp-speakers__post.slug-viola-gruner-2)) {
- 		 display: none;
-	}
+  }
 }
