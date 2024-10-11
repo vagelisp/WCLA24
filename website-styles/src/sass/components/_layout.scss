@@ -39,6 +39,14 @@
 	margin-top: 0 !important;
 }
 
+.wp-block-columns {
+  @for $i from 1 through 5 {
+	&.gap-#{$i}x {
+	  gap: #{$i}rem;
+	}
+  }
+}
+
 @include media-max(md) {
 	.wp-block-columns.mobile-reverse-order {
 		&.wp-container-core-columns-is-layout-2 {
