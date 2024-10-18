@@ -25,6 +25,13 @@
 		margin-bottom: 1.5rem;
 	  }
 
+	  .wp-block-wordcamp-avatar {
+		img {
+			width: 100%;
+			object-fit: cover;
+		}
+	  }
+
 	  .wp-block-wordcamp-speaker-sessions {
 		background-color: $WCLA24-Pink-60;
 		padding: 3.125rem;
