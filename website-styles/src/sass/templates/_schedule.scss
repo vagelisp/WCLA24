@@ -6,7 +6,7 @@
 	box-shadow: none !important;
 
 	&.is-empty {
-	  display: none;
+	  display: none !important;
 	}
   }
 
@@ -41,7 +41,7 @@
   }
 
   .wordcamp-schedule__session {
-	box-shadow: 0 0 1px 1px #fde9b1 !important;
+	box-shadow: 0 0 1px 1px $WCLA24-Beige-60 !important;
   }
 
   a.fav-session-button {
