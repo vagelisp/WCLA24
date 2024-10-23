@@ -47,10 +47,16 @@
 		  &[aria-pressed="true"] {
 			color: $WCLA24-DarkRed-100 !important;
 		  }
-		}
 
-		.dashicons-star-filled:before {
-		  content: "\f155";
+		  .dashicons-star-filled:before {
+			content: "\f154";
+		  }
+
+		  &[aria-pressed="true"] {
+			.dashicons-star-filled:before {
+			  content: "\f155";
+			}
+		  }
 		}
 	  }
 	}
