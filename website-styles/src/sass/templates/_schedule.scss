@@ -39,11 +39,12 @@
 
 	  .wcb-favourite-session {
 		a.fav-session-button {
-		  &,
+		  color: $WCLA24-Black-40 !important;
+
 		  &:hover,
 		  &:active,
 		  &:focus {
-			color: $WCLA24-DarkRed-100;
+			color: $WCLA24-DarkRed-100 !important;
 		  }
 		}
 
