@@ -19,46 +19,38 @@
 
   .wordcamp-schedule__session {
 	background-color: $WCLA24-Beige-40;
+	box-shadow: 0 0 1px 1px $WCLA24-Beige-60 !important;
 
 	&:hover {
 	  background-color: $WCLA24-Beige-60;
 	}
-  }
 
-  .wordcamp-schedule__session-category {
-	color: $WCLA24-DarkRed-100;
-  }
-
-  .wordcamp-schedule__session-title {
-	font-size: 1.2em;
-	font-weight: 600;
-
-	a {
-	  &:not(.fav-session-button) {
-		color: $WCLA24-DarkRed-100;
-	  }
-	}
-  }
-
-  .wordcamp-schedule__session {
-	box-shadow: 0 0 1px 1px $WCLA24-Beige-60 !important;
-  }
-
-  a.fav-session-button {
-	color: $WCLA24-DarkRed-100;
-  }
-
-  .dashicons-star-filled:before {
-	content: "\f154";
-  }
-
-  .wcb-favourite-session {
-	.fav-session-button {
+	&-category {
 	  color: $WCLA24-DarkRed-100;
 	}
 
-	.dashicons-star-filled:before {
-	  content: "\f155";
+	&-title {
+	  font-size: 1.2em;
+	  font-weight: 600;
+
+	  a {
+		color: $WCLA24-DarkRed-100;
+	  }
+
+	  .wcb-favourite-session {
+		a.fav-session-button {
+		  &,
+		  &:hover,
+		  &:active,
+		  &:focus {
+			color: $WCLA24-DarkRed-100;
+		  }
+		}
+
+		.dashicons-star-filled:before {
+		  content: "\f155";
+		}
+	  }
 	}
   }
 
