@@ -1,0 +1,22 @@
+.volunteers-list {
+  .wp-block-media-text {
+	background-color: $WCLA24-TotalWhite-100;
+	padding: 4rem 3rem;
+
+	&__media {
+	  img {
+		border-radius: 100%;
+		width: 100%;
+		height: auto;
+		aspect-ratio: 1/1;
+		object-fit: cover;
+	  }
+	}
+
+	&__content {
+	  h2:first-child {
+		margin-top: 0;
+	  }
+	}
+  }
+}
