@@ -1,6 +1,7 @@
 .wordcamp-schedule__day {
   .wordcamp-schedule__time-slot-header {
-	background-color: $WCLA24-Beige-60 !important;
+	background-color: #F0AEBA !important;
+	border-left: 10px solid #E5788D !important;
 	font-weight: $Bold;
 	font-size: 1rem;
 	box-shadow: none !important;
@@ -13,16 +14,16 @@
   .wordcamp-schedule__column-header {
 	font-size: 1.2rem;
 	line-height: 3;
-	background-color: $WCLA24-Beige-80 !important;
+	background-color: #E5788D !important;
 	color: $WCLA24-DarkRed-100;
   }
 
   .wordcamp-schedule__session {
-	background-color: $WCLA24-Beige-40;
+	background-color: #FCF2F3;
 	box-shadow: 0 0 1px 1px $WCLA24-Beige-60 !important;
 
 	&:hover {
-	  background-color: $WCLA24-Beige-60;
+	  background-color: #F4C9D1;
 	}
 
 	&-category {
