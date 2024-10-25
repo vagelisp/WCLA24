@@ -1,4 +1,5 @@
 .wordcamp-schedule__day {
+
   .wordcamp-schedule__time-slot-header {
 	background-color: #F0AEBA !important;
 	border-left: 10px solid #E5788D !important;
@@ -61,6 +62,13 @@
 		}
 	  }
 	}
+	.wordcamp-schedule__session-speakers {
+		font-weight: $Bold;
+	}
+	.wordcamp-schedule__session-category {
+		font-weight: $SemiBold;
+	}
+
   }
 
   @media print {
