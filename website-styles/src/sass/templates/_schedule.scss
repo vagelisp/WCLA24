@@ -1,9 +1,4 @@
 .wordcamp-schedule__day {
-  .wordcamp-schedule__date {
-	padding: 20px;
-	margin-bottom: -20px;
-	background-color: white;
-  }
   .wordcamp-schedule__time-slot-header {
 	background-color: #F0AEBA !important;
 	border-left: 10px solid #E5788D !important;
@@ -75,4 +70,10 @@
 	  text-align: center !important;
 	}
   }
+}
+
+.wordcamp-schedule__date {
+	padding: 20px;
+	margin-bottom: -20px;
+	background-color: white;
 }
