@@ -39,9 +39,7 @@ WCLA24/
 ├── website-styles/         # Contains styling resources for WordCamp Larissa website
 │   ├── build/              # Compiled styles ready for deployment
 │   └── src/                # Source styles for customization
-├── .editorconfig           # Coding style configuration
-├── .gitignore              # Git ignore file for unnecessary files
-├── .stylelintrc            # Stylelint configuration for CSS coding standards
+standards
 └──README.md               # Documentation for the repository
 ```
 
