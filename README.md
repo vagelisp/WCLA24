@@ -39,8 +39,7 @@ WCLA24/
 ├── website-styles/         # Contains styling resources for WordCamp Larissa website
 │   ├── build/              # Compiled styles ready for deployment
 │   └── src/                # Source styles for customization
-standards
-└──README.md               # Documentation for the repository
+└──README.md                # Documentation for the repository
 ```
 
 ### Folder Descriptions
