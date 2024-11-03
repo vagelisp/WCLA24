@@ -79,4 +79,4 @@ For major changes, please open an issue first to discuss your proposed modificat
 
 ## License
 
-This project is licensed under the GPL2 License.
+This project is licensed under the GPL-3.0 License. See the [LICENSE](https://www.gnu.org/licenses/gpl-3.0.html) file for details.
