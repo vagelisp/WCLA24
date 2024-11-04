@@ -1,19 +1,19 @@
-
-# WordCamp Larissa 2024 Repository
+# WordCamp Larissa 2024 Repository <!-- omit from toc -->
 
 This repository contains resources and configuration files for WordCamp Larissa 2024, supporting various aspects of the event's online presence and community engagement.
 
-## Table of Contents
+## Table of Contents <!-- omit from toc -->
 
 - [Project Overview](#project-overview)
 - [Repository Structure](#repository-structure)
+  - [Folder Descriptions](#folder-descriptions)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
 
 ## Project Overview
 
-WordCamp Larissa 2024 is a community-driven event focusing on WordPress This repository organizes essential resources to facilitate the event's online activities, including community links, QR code redirects, and website styling.
+WordCamp Larissa 2024 is a community-driven event focusing on WordPress. This repository organizes essential resources to facilitate the event's online activities, including community links, QR code redirects, and website styling.
 
 You can read more about WordCamps in general [here](https://central.wordcamp.org/about/).
 
