@@ -6,7 +6,6 @@ This repository contains resources and configuration files for WordCamp Larissa 
 
 - [Project Overview](#project-overview)
 - [Repository Structure](#repository-structure)
-  - [Folder Descriptions](#folder-descriptions)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
@@ -42,7 +41,7 @@ WCLA24/
 └──README.md                # Documentation for the repository
 ```
 
-### Folder Descriptions
+### Folder Descriptions <!-- omit from toc -->
 
 - **links/**: Contains resources related to the WordCamp Larissa community, deployed at [wpgreece.org/links](https://wpgreece.org/links). This directory includes an `index.html` file and associated assets like `styles.css` for styling the page.
 
