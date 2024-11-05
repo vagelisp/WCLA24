@@ -34,7 +34,8 @@ WCLA24/
 │   └── index.html          # Main HTML for community links section
 ├── netlify-links/          # Manages QR code redirects deployed on Netlify
 │   ├── _redirects          # Redirect rules for QR codes
-│   └── index.html          # Landing page for QR code redirects
+│   ├── index.html          # Landing page for QR code redirects
+│   └── qr-codes			# Contains the QR code images
 ├── website-styles/         # Contains styling resources for WordCamp Larissa website
 │   ├── build/              # Compiled styles ready for deployment
 │   └── src/                # Source styles for customization
