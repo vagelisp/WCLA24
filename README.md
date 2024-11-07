@@ -1,4 +1,6 @@
-# WordCamp Larissa 2024 Repository <!-- omit from toc -->
+# WordCamp Larissa 2024 Repository <!-- omit from toc --> [![Netlify Status](https://api.netlify.com/api/v1/badges/00079a62-7096-452e-8706-bbba3ebad6e6/deploy-status)](https://app.netlify.com/sites/wclagr/deploys)
+
+
 
 This repository contains resources and configuration files for WordCamp Larissa 2024, supporting various aspects of the event's online presence and community engagement.
 
