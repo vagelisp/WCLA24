@@ -6,11 +6,12 @@ This repository contains resources and configuration files for WordCamp Larissa 
 
 ## Table of Contents <!-- omit from toc -->
 
-- [Project Overview](#project-overview)
-- [Repository Structure](#repository-structure)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+- [WordCamp Larissa 2024 Repository  ](#wordcamp-larissa-2024-repository--)
+  - [Project Overview](#project-overview)
+  - [Repository Structure](#repository-structure)
+  - [Usage](#usage)
+  - [Contributing](#contributing)
+  - [License](#license)
 
 ## Project Overview
 
@@ -37,7 +38,7 @@ WCLA24/
 ├── netlify-links/          # Manages QR code redirects deployed on Netlify
 │   ├── _redirects          # Redirect rules for QR codes
 │   ├── index.html          # Landing page for QR code redirects
-│   ├── live/         		# COntains the dynamic iframe rotator
+│   ├── live/         		# Contains the dynamic iframe rotator
 │   └── qr-codes/			# Contains the QR code images
 ├── website-styles/         # Contains styling resources for WordCamp Larissa website
 │   ├── build/              # Compiled styles ready for deployment
