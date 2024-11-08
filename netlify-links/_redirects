@@ -1,9 +1,10 @@
 # Redirects from what the browser requests to what we serve
-/                       https://wpgreece.org/links/wcla2024/		                                                302!
-/dsuthgr-poster			https://wpgreece.org/links/wcla2024/	                                                	302!
-/nfc-attendee			https://wpgreece.org/links/wcla2024/	                                                	302!
-/nfc-sponsor			https://wpgreece.org/links/wcla2024/	                                                	302!
-/nfc-volunteer			https://wpgreece.org/links/wcla2024/	                                                	302!
-/nfc-organisers			https://wpgreece.org/links/wcla2024/	                                                	302!
-/livestream             https://youtube.com/live/CAFI0Iw2ZP8?feature=share                                          302!
+/                       https://wpgreece.org/links/wcla2024/                                                        302!
+/nfc-organisers			https://wpgreece.org/links/wcla2024/                                                        302!
+/nfc-volunteer			https://wpgreece.org/links/wcla2024/                                                        302!
+/nfc-sponsor			https://wpgreece.org/links/wcla2024/                                                        302!
+/nfc-speaker			https://wpgreece.org/links/wcla2024/                                                        302!
+/nfc-attendee			https://wpgreece.org/links/wcla2024/                                                        302!
+/livestream             https://youtube.com/live/CAFI0Iw2ZP8                                                        302!
+/dsuthgr-poster			https://wpgreece.org/links/wcla2024/                                                        302!
 /attendance             https://larissa.wordcamp.org/2024?camptix-attendance=mvO1VG4VUU26obasX7HyR7wgMr6XfMb0       302!
