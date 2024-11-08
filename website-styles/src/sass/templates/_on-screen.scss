@@ -1,4 +1,9 @@
 .page-template-wp-custom-template-screen-template-no-header-no-footer-200px-top-200px-bottom {
-	padding-top: 200px;
+	background-color: #faf8f2;
+	padding-top: 200px!important;
 	padding-bottom: 200px;
+
+	.wordcamp-live-schedule__schedule-link.wp-block-button__link {
+		display: none !important;
+	}
 }
