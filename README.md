@@ -45,7 +45,7 @@ WCLA24/
 
 ### Folder Descriptions <!-- omit from toc -->
 
-- **links/**: Contains resources related to the WordCamp Larissa community, deployed at [wpgreece.org/links](https://wpgreece.org/links). This directory includes an `index.html` file and associated assets like `styles.css` for styling the page.
+- **links/**: Contains resources related to the WordCamp Larissa community, deployed at [wpgreece.org/links](https://wpgreece.org/links). This directory includes an `index.html` file and associated assets like `brands.css` for styling the page.
 
 - **netlify-links/**: Manages QR code redirects, deployed via Netlify. The `_redirects` file defines URL mappings for QR codes, and the `qr-codes/` subdirectory stores the QR code images used during the event.
 
@@ -57,7 +57,7 @@ WCLA24/
 
 Each directory serves a specific function:
 
-- **links/**: Update the `index.html` and `styles.css` as needed to reflect current community resources. Changes are deployed to [wpgreece.org/links](https://wpgreece.org/links).
+- **links/**: Update the `index.html` and `brands.css` as needed to reflect current community resources. Changes are deployed to [wpgreece.org/links](https://wpgreece.org/links).
 
 - **netlify-links/**: Modify the `_redirects` file to manage QR code destinations. Deployments are handled through Netlify.
 
