@@ -3,6 +3,11 @@
 	padding-top: 200px!important;
 	padding-bottom: 200px;
 
+	.wp-site-blocks {
+		width: 75%;
+		margin: 0 auto;
+	}
+
 	.wordcamp-live-schedule__schedule-link.wp-block-button__link {
 		display: none !important;
 	}
