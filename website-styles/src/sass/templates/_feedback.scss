@@ -1,0 +1,27 @@
+.speaker-feedback-navigation {
+  .speaker-feedback {
+	&__wrapper {
+	  flex-wrap: wrap;
+	  gap: 1rem;
+	}
+
+	&__field {
+	  max-width: 100%;
+	}
+  }
+
+  input[type="submit"] {
+	background-color: $WCLA24-Orange-100;
+	color: $WCLA24-TotalWhite-100;
+	font-size: 1.5rem;
+	font-weight: 700;
+	letter-spacing: .1rem;
+	line-height: 1.25;
+	padding: 25px 50px;
+	border: none;
+
+	@include media-max(md) {
+	  width: 100%;
+	}
+  }
+}
