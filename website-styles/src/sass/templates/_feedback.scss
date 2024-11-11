@@ -7,6 +7,16 @@
 
 	&__field {
 	  max-width: 100%;
+	  padding: 0;
+	}
+
+	.select2-container {
+	  max-width: 100%;
+	}
+
+	.select2-selection__rendered {
+	  display: inline-block;
+	  max-width: 100%;
 	}
   }
 
