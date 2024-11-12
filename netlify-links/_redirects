@@ -1,10 +1,9 @@
 # Redirects from what the browser requests to what we serve
 /                       https://wpgreece.org/links/wcla2024/                                                        302!
 /nfc-organisers			https://wpgreece.org/links/wcla2024/                                                        302!
-/nfc-volunteer			https://form.jotform.com/WordPress_Community/wordpress-event-attendee-feedback?whichEvent=WordCamp+Larissa&language=el                                                302!
-/nfc-sponsor			https://form.jotform.com/WordPress_Community/wordpress-event-attendee-feedback?whichEvent=WordCamp+Larissa&language=el                                                302!
-/nfc-speaker			https://form.jotform.com/WordPress_Community/wordpress-event-attendee-feedback?whichEvent=WordCamp+Larissa&language=el                                                302!
-/nfc-attendee			https://form.jotform.com/WordPress_Community/wordpress-event-attendee-feedback?whichEvent=WordCamp+Larissa&language=el                                                302!
-/livestream             https://youtube.com/live/CAFI0Iw2ZP8                                                        302!
+/nfc-volunteer			https://larissa.wordcamp.org/2024/sas-efxaristoume/                                         302!
+/nfc-sponsor			https://larissa.wordcamp.org/2024/sas-efxaristoume/                                         302!
+/nfc-speaker			https://larissa.wordcamp.org/2024/sas-efxaristoume/                                         302!
+/nfc-attendee			https://larissa.wordcamp.org/2024/sas-efxaristoume/                                         302!
+/track-01               https://www.youtube.com/watch?v=CAFI0Iw2ZP8                                                 302!
 /dsuthgr-poster			https://wpgreece.org/links/wcla2024/                                                        302!
-/attendance             https://larissa.wordcamp.org/2024?camptix-attendance=mvO1VG4VUU26obasX7HyR7wgMr6XfMb0       302!
